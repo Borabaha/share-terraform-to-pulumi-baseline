@@ -1,0 +1,18 @@
+# Prompt 161
+
+## Resources
+
+aws_cloudwatch_metric_alarm
+
+## Prompt
+
+Generate a Terraform HCL code snippet to define an AWS CloudWatch metric alarm named 'foobar' that monitors the 'CPUUtilization' metric of AWS EC2 instances. The alarm should trigger when the average CPU utilization is greater than or equal to 80% for two consecutive 2-minute periods. Ensure that no actions are taken when there's insufficient data.
+
+## Difficulty
+
+2
+
+## Intent
+
+nan
+

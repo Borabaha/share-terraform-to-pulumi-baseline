@@ -1,0 +1,5 @@
+[profile admin-1]
+region = us-east-1
+
+[default]
+region = us-east-1

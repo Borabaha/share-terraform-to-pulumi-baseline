@@ -1,0 +1,34 @@
+# Prompt 2
+
+## Resources
+
+aws_elb, aws_route53_record, aws_route53_zone
+
+## Prompt
+
+Configure a Route 53 record with an Elastic Load Balancer resource. Call the zone "primary" and the elb "main"
+
+## Difficulty
+
+3
+
+## Intent
+
+Has one "aws_route53_zone" resource
+    with "name"
+
+Has a "aws_elb" resource
+    with "name"
+    with "availability_zones"
+    with a "listener" block with "instance_port", "instance_protocol", "lb_port", "lb_protocol"
+
+Has a "aws_route53_record" resource
+    with "name"
+    with "type"
+    with "ttl"
+    with "zone_id" referencing the "aws_route53_zone" resource
+    with an "alias" block with "name" and "zone_id" referencing the "aws_elb" and "evaluate_target_health" equal to true
+
+
+
+

@@ -1,0 +1,411 @@
+task,lang,convert_ok,convert_seconds,convert_warnings,provider_config_dropped,provider_alias_dropped,unimplemented_functions,convert_warning_kinds,not_implemented,convert_error,compile_ok,preview_ok,preview_error,tf_n,pulumi_n,matched,equivalent,missing_in_pulumi,extra_in_pulumi,preview_seconds,provisioner_n,run,in_base_set,failure_cause,failure_detail
+1,typescript,True,2.8,0,,,,,0,,True,True,,5,5,5,True,{},{},40.1,0,ext-w1-c,True,,
+2,typescript,True,2.8,0,,,,,0,,True,True,,3,3,3,True,{},{},37.7,0,ext-w1-d,True,,
+3,typescript,True,1.6,4,,ap_southeast;eu_central;main;us_east,,Provider alias not supported,0,,True,True,,8,8,8,True,{},{},15.1,0,pilot-aligned,True,,
+4,typescript,True,3.7,1,assume_role,,,Provider config not supported,0,,True,True,,10,10,10,True,{},{},52.6,0,ext-w1-c,True,,
+5,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},29.7,0,ext-w1-b,True,,
+6,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},53.0,0,ext-w1-c,True,,
+7,typescript,True,4.9,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},46.4,0,ext-w1-a,True,,
+8,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},34.3,0,ext-w1-a,True,,
+9,typescript,True,2.8,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(77,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'. error: Running program 'runs\ext-w1-c\9\pulumi-ts/' failed with an unhandled exception:",,,,,,,23.7,,ext-w1-c,True,ts_type_error,"index.ts(77,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'."
+10,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(52,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'. error: Running program 'runs\ext-w1-c\10\pulumi-ts/' failed with an unhandled exception:",,,,,,,9.6,,ext-w1-c,True,ts_type_error,"index.ts(52,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'."
+11,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(55,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'. error: Running program 'runs\ext-w1-d\11\pulumi-ts/' failed with an unhandled exception:",,,,,,,13.8,,ext-w1-d,True,ts_type_error,"index.ts(55,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'."
+12,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(69,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'. error: Running program 'runs\ext-w1-b\12\pulumi-ts/' failed with an unhandled exception:",,,,,,,10.9,,ext-w1-b,True,ts_type_error,"index.ts(69,5): error TS2322: Type 'Output<string>' is not assignable to type 'Input<ApplicationVersion> | undefined'."
+13,typescript,True,3.2,3,,default;europe;west,,Provider alias not supported,0,,True,False,"error: Error: error serializing property ""bucket"": failed to register new resource us_west_examplebucket_object [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compu | error: Error: error serializing property ""bucket"": failed to register new resource eu_examplebucket_object [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute as",,,,,,,40.6,,ext-w1-a,True,missing_file_in_package,"error: Error: error serializing property ""bucket"": failed to register new resource us_west_examplebucket_object [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for..."
+14,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(81,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-b\14\pulumi-ts/' failed with an unhandled exception:",,,,,,,9.4,,ext-w1-b,True,ts_type_error,"index.ts(81,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+15,typescript,True,2.4,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(61,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-a\15\pulumi-ts/' failed with an unhandled exception:",,,,,,,12.4,,ext-w1-a,True,ts_type_error,"index.ts(61,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+16,typescript,True,2.6,2,assume_role,,formatdate,Function not yet implemented;Provider config not supported,1,,False,False,"compile: index.ts(67,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-b\16\pulumi-ts/' failed with an unhandled exception:",,,,,,,18.9,,ext-w1-b,True,ts_type_error,"index.ts(67,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+17,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(102,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\pilot-aligned\17\pulumi-ts/' failed with an unhandled exception:",,,,,,,7.7,,pilot-aligned,True,ts_type_error,"index.ts(102,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+19,typescript,True,2.2,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(131,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-d\19\pulumi-ts/' failed with an unhandled exception:",,,,,,,12.5,,ext-w1-d,True,ts_type_error,"index.ts(131,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+20,typescript,True,4.1,0,,,,,0,,True,True,,2,2,2,True,{},{},48.4,0,ext-w1-c,True,,
+21,typescript,True,3.2,0,,,,,0,,True,True,,2,2,2,True,{},{},50.3,0,ext-w1-b,True,,
+22,typescript,True,5.2,0,,,,,0,,True,True,,2,2,2,True,{},{},71.7,0,ext-w1-a,True,,
+23,typescript,True,3.4,0,,,,,0,,True,True,,2,2,2,True,{},{},41.4,0,ext-w1-d,True,,
+24,typescript,True,7.7,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(57,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-a\24\pulumi-ts/' failed with an unhandled exception:",,,,,,,27.7,,ext-w1-a,True,ts_type_error,"index.ts(57,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+25,typescript,True,31.1,2,,eu_west_1;us_east_1,,Provider alias not supported,0,,True,False,"error: aws:rds/instance:Instance resource 'main_db_us_east' has a problem: only lowercase alphanumeric characters and hyphens allowed in ""identifier"". Examine values at 'main_db_us_east.identifier'.",,,,,,,52.0,,ext-w1-d,True,pulumi_auto_naming,"error: aws:rds/instance:Instance resource 'main_db_us_east' has a problem: only lowercase alphanumeric characters and hyphens allowed in ""identifier"". Examine values at 'main_db_us_east.identifier'."
+26,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,False,False,"compile: index.ts(60,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'. error: Running program 'runs\ext-w1-b\26\pulumi-ts/' failed with an unhandled exception:",,,,,,,28.1,,ext-w1-b,True,ts_type_error,"index.ts(60,13): error TS2322: Type 'Output<string | undefined>' is not assignable to type 'Input<string>'."
+27,typescript,True,2.9,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},43.6,0,ext-w1-b,True,,
+28,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},30.0,0,ext-w1-a,True,,
+29,typescript,True,2.2,0,,,,,0,,True,True,,2,2,2,True,{},{},40.2,0,ext-w1-a,True,,
+30,typescript,True,1.8,0,,,,,0,,True,True,,1,1,1,True,{},{},40.7,0,ext-w1-a,True,,
+31,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},14.5,0,pilot-aligned,True,,
+32,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},24.5,0,ext-w1-a,True,,
+33,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},33.6,0,ext-w1-d,True,,
+34,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},31.1,0,ext-w1-b,True,,
+35,typescript,True,3.3,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},47.4,0,ext-w1-a,True,,
+36,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},25.4,0,ext-w1-d,True,,
+37,typescript,True,3.4,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},46.2,0,ext-w1-b,True,,
+38,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},38.2,0,ext-w1-a,True,,
+39,typescript,True,3.5,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},46.1,0,ext-w1-d,True,,
+40,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},22.9,0,ext-w1-d,True,,
+41,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},42.1,0,ext-w1-c,True,,
+42,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},44.2,0,ext-w1-d,True,,
+43,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},14.7,0,pilot-aligned,True,,
+44,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},38.4,0,ext-w1-b,True,,
+45,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},30.2,0,ext-w1-b,True,,
+46,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},32.3,0,ext-w1-d,True,,
+47,typescript,True,3.9,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},94.8,0,ext-w1-b,True,,
+48,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},24.8,0,ext-w1-d,True,,
+49,typescript,True,11.4,1,assume_role,,,Provider config not supported,0,,True,True,,2,2,2,True,{},{},49.6,0,ext-w1-d,True,,
+50,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},23.2,0,ext-w1-d,True,,
+51,typescript,True,2.1,0,,,,,0,,True,True,,2,2,2,True,{},{},34.1,0,ext-w1-b,True,,
+52,typescript,True,1.3,0,,,,,0,,True,True,,2,2,2,True,{},{},22.1,0,ext-w1-b,True,,
+53,typescript,True,1.2,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},23.9,0,ext-w1-b,True,,
+54,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},27.8,0,ext-w1-c,True,,
+55,typescript,True,3.5,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},46.0,0,ext-w1-d,True,,
+56,typescript,True,2.7,0,,,,,0,,True,True,,1,1,1,True,{},{},39.9,0,ext-w1-c,True,,
+57,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},14.7,0,pilot-aligned,True,,
+58,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},28.5,0,ext-w1-c,True,,
+59,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},25.0,0,ext-w1-c,True,,
+60,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},43.9,0,ext-w1-d,True,,
+61,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},43.0,0,ext-w1-d,True,,
+62,typescript,True,3.4,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},50.6,0,ext-w1-d,True,,
+63,typescript,True,2.2,0,,,,,0,,True,True,,3,3,3,True,{},{},28.0,0,ext-w1-c,True,,
+64,typescript,True,2.9,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},43.5,0,ext-w1-d,True,,
+65,typescript,True,7.0,1,assume_role,,,Provider config not supported,0,,True,True,,17,17,17,True,{},{},45.8,0,ext-w1-c,True,,
+66,typescript,True,4.3,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},55.8,0,ext-w1-c,True,,
+67,typescript,True,2.3,1,assume_role,,,Provider config not supported,0,,True,True,,17,17,17,True,{},{},29.8,0,ext-w1-c,True,,
+68,typescript,True,3.0,0,,,,,0,,True,True,,1,1,1,True,{},{},41.6,0,ext-w1-b,True,,
+69,typescript,True,2.1,0,,,,,0,,True,True,,2,2,2,True,{},{},32.0,0,ext-w1-d,True,,
+70,typescript,True,4.5,0,,,,,0,,True,True,,3,3,3,True,{},{},38.4,0,ext-w1-a,True,,
+71,typescript,True,4.6,0,,,,,0,,True,True,,1,1,1,True,{},{},48.3,0,ext-w1-b,True,,
+72,typescript,True,2.9,0,,,,,0,,True,True,,2,2,2,True,{},{},46.3,0,ext-w1-a,True,,
+74,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami",,,,,,,37.6,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami"
+75,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami",,,,,,,26.8,,ext-w1-d,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami"
+76,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami",,,,,,,48.5,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami"
+77,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami",,,,,,,32.9,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'role' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami"
+78,typescript,True,4.1,0,,,,,0,,True,True,,1,1,1,True,{},{},53.2,0,ext-w1-c,True,,
+79,typescript,True,1.6,0,,,,,0,,True,True,,2,2,2,True,{},{},23.7,0,ext-w1-d,True,,
+80,typescript,True,3.4,0,,,,,0,,True,True,,3,3,3,True,{},{},34.7,0,ext-w1-a,True,,
+82,typescript,True,1.3,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},23.0,0,ext-w1-b,True,,
+83,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},14.4,0,pilot-aligned,False,,
+84,typescript,True,2.6,0,,,,,0,,True,True,,3,3,3,True,{},{},37.5,0,ext-w1-d,True,,
+85,typescript,True,2.1,0,,,,,0,,True,True,,3,3,3,True,{},{},24.9,0,ext-w1-c,True,,
+86,typescript,True,1.3,0,,,,,0,,True,True,,1,1,1,True,{},{},14.7,0,pilot-aligned,True,,
+87,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},23.1,4,ext-w1-d,True,,
+88,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'eks-cluster' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5",,,,,,,23.9,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'eks-cluster' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5"
+89,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},40.0,4,ext-w1-d,True,,
+90,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'eks-cluster' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5 | error: Error: error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invocation of aws:index/getAvailabilityZones:getAvailabilityZones returned an error: grpc: t",,,,,,,18.9,,pilot-aligned,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'eks-cluster' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5"
+91,typescript,True,1.5,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,14.0,,pilot-aligned,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+92,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,29.0,,ext-w1-a,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+93,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,23.5,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+94,typescript,True,3.3,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,42.0,,ext-w1-a,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+95,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,23.9,,ext-w1-b,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+96,typescript,True,3.8,0,,,,,0,,True,True,,2,2,2,True,{},{},44.4,0,ext-w1-a,True,,
+97,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,24.5,,ext-w1-b,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+98,typescript,True,2.7,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example-group' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset | error: Error: error serializing property ""clusterName"": error serializing property ""vpcConfig"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invocation",,,,,,,23.9,,ext-w1-b,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example-group' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset"
+99,typescript,True,7.7,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example1' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. E",,,,,,,64.5,,ext-w1-d,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example1' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. E"
+100,typescript,True,1.5,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},23.4,0,ext-w1-a,True,,
+101,typescript,True,3.2,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'demo' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami",,,,,,,60.9,,ext-w1-d,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'demo' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Exami"
+102,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,38.8,,ext-w1-c,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+103,typescript,True,2.4,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex",,,,,,,66.6,,ext-w1-a,True,ts_heredoc_json_escaping,"error: aws:iam/role:Role resource 'example' has a problem: ""assume_role_policy"" contains an invalid JSON policy: invalid character '\\' looking for beginning of object key string, at byte offset 5. Ex"
+104,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},37.2,0,ext-w1-d,True,,
+105,typescript,True,1.8,0,,,,,0,,True,True,,3,3,3,True,{},{},27.6,0,ext-w1-d,True,,
+107,typescript,True,3.3,0,,,,,0,,True,True,,2,2,2,True,{},{},47.1,0,ext-w1-c,True,,
+108,typescript,True,2.5,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},33.4,0,ext-w1-a,True,,
+109,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},24.4,0,ext-w1-a,True,,
+110,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},14.3,0,pilot-aligned,False,,
+111,typescript,True,10.9,0,,,,,0,,True,True,,2,2,2,True,{},{},26.2,0,ext-w1-d,True,,
+113,typescript,True,1.5,0,,,,,0,,True,True,,2,2,2,True,{},{},200.7,0,ext-w1-c,True,,
+114,typescript,True,1.5,0,,,,,0,,True,True,,2,2,2,True,{},{},27.9,0,ext-w1-a,True,,
+115,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,False,"error: Error: failed to register new resource web-data-primary [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset",,,,,,,31.1,,ext-w1-b,True,missing_file_in_package,"error: Error: failed to register new resource web-data-primary [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file 'runs\ext-w1..."
+117,typescript,True,4.5,0,,,,,0,,True,True,,3,3,3,True,{},{},56.3,0,ext-w1-c,True,,
+119,typescript,True,3.9,0,,,,,0,,True,True,,3,3,3,True,{},{},61.4,0,ext-w1-a,True,,
+120,typescript,True,1.9,0,,,,,0,,True,True,,3,3,3,True,{},{},30.3,0,ext-w1-c,True,,
+121,typescript,True,2.9,0,,,,,0,,True,True,,5,5,5,True,{},{},97.6,0,ext-w1-c,True,,
+123,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},14.5,0,pilot-aligned,True,,
+124,typescript,True,1.4,0,,,,,0,,True,True,,0,0,0,False,{},{},23.9,0,ext-w1-c,True,,
+126,typescript,True,1.7,0,,,,,0,,True,True,,1,1,1,True,{},{},25.8,0,ext-w1-b,True,,
+127,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},14.8,0,pilot-aligned,True,,
+132,typescript,True,2.3,0,,,,,0,,True,True,,1,1,1,True,{},{},36.9,0,ext-w1-b,True,,
+133,typescript,True,2.4,0,,,,,0,,True,True,,1,1,1,True,{},{},44.4,0,ext-w1-b,True,,
+134,typescript,True,3.5,0,,,,,0,,True,True,,1,1,1,True,{},{},50.6,0,ext-w1-d,True,,
+135,typescript,True,2.8,0,,,,,0,,True,True,,1,1,1,True,{},{},43.9,0,ext-w1-a,True,,
+136,typescript,True,3.5,0,,,,,0,,True,True,,1,1,1,True,{},{},45.8,0,ext-w1-a,True,,
+137,typescript,True,3.5,0,,,,,0,,True,True,,2,2,2,True,{},{},53.3,0,ext-w1-b,True,,
+138,typescript,True,2.6,0,,,,,0,,True,True,,4,4,4,True,{},{},41.6,0,ext-w1-d,True,,
+139,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},33.6,0,ext-w1-a,True,,
+140,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},36.1,0,ext-w1-a,True,,
+141,typescript,True,2.2,0,,,,,0,,True,True,,2,2,2,True,{},{},24.5,0,ext-w1-a,True,,
+142,typescript,True,3.2,0,,,,,0,,True,True,,3,3,3,True,{},{},45.6,0,ext-w1-d,True,,
+143,typescript,True,2.8,0,,,,,0,,True,True,,4,4,4,True,{},{},48.7,0,ext-w1-b,True,,
+144,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},27.7,0,ext-w1-d,True,,
+145,typescript,True,4.9,1,,useast1,,Provider alias not supported,0,,True,True,,1,1,1,True,{},{},55.0,0,ext-w1-a,True,,
+146,typescript,True,3.3,0,,,,,0,,True,True,,4,4,4,True,{},{},25.2,0,ext-w1-b,True,,
+147,typescript,True,3.2,0,,,,,0,,True,True,,2,2,2,True,{},{},49.7,0,ext-w1-d,True,,
+148,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},24.1,0,ext-w1-a,True,,
+149,typescript,True,3.6,0,,,,,0,,True,True,,2,2,2,True,{},{},47.7,0,ext-w1-a,True,,
+150,typescript,True,8.8,0,,,,,0,,True,True,,3,3,3,True,{},{},55.3,0,ext-w1-d,True,,
+151,typescript,True,3.2,0,,,,,0,,True,True,,3,3,3,True,{},{},39.0,0,ext-w1-a,True,,
+152,typescript,True,4.5,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},47.8,0,ext-w1-c,True,,
+153,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},28.6,0,ext-w1-a,True,,
+154,typescript,True,2.7,0,,,,,0,,True,False,error: Running program 'runs\ext-w1-c\154\pulumi-ts/' failed with an unhandled exception:,,,,,,,18.0,,ext-w1-c,True,missing_file_in_package,"Error: failed to register new resource lambda_layer [aws:lambda/layerVersion:LayerVersion]: 2 UNKNOWN: unmarshal properties: failed to compute archive hash for ""code"": open runs\ext-w1-c\154\pulumi-ts\lambda_layer_pay..."
+155,typescript,True,2.2,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},40.6,0,ext-w1-a,True,,
+156,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:cloudwatch/eventRule:EventRule resource 'scan_ami' has a problem: ""event_pattern"" contains an invalid JSON: invalid character '\\' looking for beginning of object key string. Examine values",,,,,,,18.8,,pilot-aligned,True,ts_heredoc_json_escaping,"error: aws:cloudwatch/eventRule:EventRule resource 'scan_ami' has a problem: ""event_pattern"" contains an invalid JSON: invalid character '\\' looking for beginning of object key string. Examine values"
+157,typescript,True,2.7,0,,,,,0,,True,True,,2,2,2,True,{},{},46.4,0,ext-w1-c,True,,
+158,typescript,True,3.4,0,,,,,0,,True,True,,2,2,2,True,{},{},49.7,0,ext-w1-a,True,,
+159,typescript,True,1.7,0,,,,,0,,True,True,,2,2,2,True,{},{},27.2,0,ext-w1-c,True,,
+160,typescript,True,4.9,0,,,,,0,,False,True,compile: ,1,1,1,True,{},{},85.1,0,ext-w1-c,True,,
+161,typescript,True,1.7,0,,,,,0,,True,True,,1,1,1,True,{},{},30.8,0,ext-w1-c,True,,
+162,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},30.7,0,ext-w1-a,True,,
+163,typescript,True,3.0,1,assume_role,,,Provider config not supported,0,,True,True,,1,1,1,True,{},{},60.5,0,ext-w1-a,True,,
+164,typescript,True,2.5,0,,,,,0,,True,True,,3,3,3,True,{},{},36.9,0,ext-w1-d,True,,
+165,typescript,True,1.6,0,,,,,0,,True,True,,1,1,1,True,{},{},23.0,0,ext-w1-b,True,,
+166,typescript,True,2.7,0,,,,,0,,True,False,"error: aws:dynamodb/tableItem:TableItem resource 'example' has a problem: Invalid format of ""item"": invalid character '\\' looking for beginning of object key string. Examine values at 'example.item'.",,,,,,,46.6,,ext-w1-d,True,ts_heredoc_json_escaping,"error: aws:dynamodb/tableItem:TableItem resource 'example' has a problem: Invalid format of ""item"": invalid character '\\' looking for beginning of object key string. Examine values at 'example.item'."
+167,typescript,True,2.0,1,,alt,,Provider alias not supported,0,,True,True,,2,2,2,True,{},{},22.8,0,ext-w1-a,True,,
+168,typescript,True,2.1,0,,,,,0,,True,True,,2,2,2,True,{},{},172.2,0,ext-w1-d,True,,
+169,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},66.9,0,ext-w1-c,True,,
+170,typescript,True,3.7,0,,,,,0,,True,True,,4,4,4,True,{},{},47.6,0,ext-w1-c,True,,
+171,typescript,True,2.1,0,,,,,0,,True,True,,1,1,1,True,{},{},30.5,0,ext-w1-c,True,,
+172,typescript,True,1.7,0,,,,,0,,True,True,,4,4,4,True,{},{},24.1,0,ext-w1-c,True,,
+173,typescript,True,3.7,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},87.2,0,ext-w1-d,True,,
+174,typescript,True,4.9,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},62.9,0,ext-w1-a,True,,
+175,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},14.5,0,pilot-aligned,True,,
+176,typescript,True,1.9,0,,,,,0,,True,True,,1,1,1,True,{},{},22.4,0,ext-w1-a,True,,
+177,typescript,True,4.3,0,,,,,0,,True,True,,2,2,2,True,{},{},53.5,0,ext-w1-a,True,,
+178,typescript,True,3.7,0,,,,,0,,True,True,,2,2,2,True,{},{},36.3,0,ext-w1-c,True,,
+179,typescript,True,2.5,0,,,,,0,,True,True,,2,2,2,True,{},{},36.7,0,ext-w1-b,True,,
+180,typescript,True,1.5,0,,,,,0,,True,True,,3,3,3,True,{},{},23.0,0,ext-w1-c,True,,
+181,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},22.4,0,ext-w1-d,True,,
+183,typescript,True,2.9,0,,,,,0,,True,True,,3,3,3,True,{},{},73.7,0,ext-w1-d,True,,
+184,typescript,True,2.3,0,,,,,0,,True,True,,4,4,4,True,{},{},29.8,0,ext-w1-a,True,,
+185,typescript,True,2.0,0,,,,,0,,True,True,,2,2,2,True,{},{},28.8,0,ext-w1-c,True,,
+186,typescript,True,17.0,0,,,,,0,,True,True,,1,1,1,True,{},{},45.2,0,ext-w1-b,True,,
+187,typescript,True,1.8,0,,,,,0,,True,True,,0,0,0,False,{},{},28.0,0,ext-w1-b,True,,
+188,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},42.2,0,ext-w1-c,True,,
+193,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},46.4,0,ext-w1-d,True,,
+195,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},38.2,0,ext-w1-b,True,,
+196,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},29.0,0,ext-w1-a,True,,
+197,typescript,True,1.8,0,,,,,0,,True,True,,4,4,4,True,{},{},27.3,0,ext-w1-d,True,,
+198,typescript,True,1.3,0,,,,,0,,True,True,,1,1,1,True,{},{},15.2,0,pilot-aligned,True,,
+199,typescript,True,24.2,0,,,,,0,,True,True,,2,2,2,True,{},{},86.4,0,ext-w1-c,True,,
+200,typescript,True,2.4,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-d\200\pulumi-ts/' failed with an unhandled exception:,,,,,,,39.8,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+201,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-c\201\pulumi-ts/' failed with an unhandled exception:,,,,,,,37.0,,ext-w1-c,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+202,typescript,True,4.1,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-d\202\pulumi-ts/' failed with an unhandled exception:,,,,,,,51.6,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+203,typescript,True,3.3,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-d\203\pulumi-ts/' failed with an unhandled exception:,,,,,,,55.4,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+204,typescript,True,6.4,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-c\204\pulumi-ts/' failed with an unhandled exception:,,,,,,,42.4,,ext-w1-c,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+205,typescript,True,3.7,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.,,,,,,,39.2,,ext-w1-a,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+206,typescript,True,2.9,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-b\206\pulumi-ts/' failed with an unhandled exception:,,,,,,,28.3,,ext-w1-b,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+207,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-d\207\pulumi-ts/' failed with an unhandled exception:,,,,,,,30.5,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+208,typescript,True,1.7,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""vpcConfigs"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invo",,,,,,,28.1,,ext-w1-a,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+209,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""vpcConfigs"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invo",,,,,,,14.7,,pilot-aligned,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+210,typescript,True,1.5,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""vpcConfigs"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invo",,,,,,,25.9,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+211,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""vpcConfigs"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": error serializing property ""availabilityZone"": invo",,,,,,,34.1,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+212,typescript,True,11.9,1,assume_role,,,Provider config not supported,0,,True,False,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Running program 'runs\ext-w1-d\212\pulumi-ts/' failed with an unhandled exception:,,,,,,,52.6,,ext-w1-d,True,pulumi_auto_naming,error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'.
+213,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""policyArn"": error serializing property ""policy"": error serializing property ""brokerNodeGroupInfo"": error serializing property ""availabilityZone"": error serial | error: Error: error serializing property ""location"": failed to register new resource example [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for """,,,,,,,32.9,,ext-w1-b,True,missing_file_in_package,"error: Error: error serializing property ""location"": failed to register new resource example [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed t..."
+214,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,False,"error: aws:ec2/securityGroup:SecurityGroup resource 'sg' has a problem: invalid value for name (cannot begin with sg-). Examine values at 'sg.name'. | error: Error: error serializing property ""policyArn"": error serializing property ""policy"": error serializing property ""brokerNodeGroupInfo"": error serializing property ""availabilityZone"": error serial | error: Error: error serializing property ""location"": failed to register new resource example [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for """,,,,,,,24.3,,ext-w1-a,True,missing_file_in_package,"error: Error: error serializing property ""location"": failed to register new resource example [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed t..."
+215,typescript,True,2.4,0,,,,,0,,True,True,,2,2,2,True,{},{},38.5,0,ext-w1-d,True,,
+216,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},22.8,0,ext-w1-c,True,,
+217,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},29.8,0,ext-w1-c,True,,
+218,typescript,True,3.0,0,,,,,0,,True,True,,2,2,2,True,{},{},46.1,0,ext-w1-b,True,,
+219,typescript,True,3.5,0,,,,,0,,True,True,,2,2,2,True,{},{},43.9,0,ext-w1-c,True,,
+220,typescript,True,2.1,0,,,,,0,,True,True,,1,1,1,True,{},{},22.3,0,ext-w1-d,True,,
+221,typescript,True,2.0,0,,,,,0,,True,True,,2,2,2,True,{},{},28.7,0,ext-w1-a,True,,
+222,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},40.7,0,ext-w1-c,True,,
+223,typescript,True,2.1,0,,,,,0,,True,True,,1,1,1,True,{},{},28.9,0,ext-w1-d,True,,
+224,typescript,True,3.0,1,assume_role,,,Provider config not supported,0,,True,True,,1,1,1,True,{},{},47.1,0,ext-w1-a,True,,
+225,typescript,True,3.2,0,,,,,0,,True,True,,1,1,1,True,{},{},32.5,0,ext-w1-c,True,,
+226,typescript,True,2.4,0,,,,,0,,True,True,,2,2,2,True,{},{},39.5,0,ext-w1-b,True,,
+227,typescript,True,1.8,0,,,,,0,,True,True,,1,1,1,True,{},{},28.5,0,ext-w1-d,True,,
+228,typescript,True,1.5,0,,,,,0,,True,True,,4,4,4,True,{},{},24.7,0,ext-w1-b,True,,
+229,typescript,True,1.8,0,,,,,0,,True,True,,1,1,1,True,{},{},30.0,0,ext-w1-b,True,,
+230,typescript,True,2.4,0,,,,,0,,True,True,,1,1,1,True,{},{},36.2,0,ext-w1-a,True,,
+231,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},28.9,0,ext-w1-c,True,,
+233,typescript,True,1.3,0,,,,,0,,True,True,,1,1,1,True,{},{},14.0,0,pilot-aligned,True,,
+234,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},23.1,0,ext-w1-b,True,,
+235,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},36.7,0,ext-w1-c,True,,
+236,typescript,True,2.7,0,,,,,0,,True,True,,3,3,3,True,{},{},42.9,0,ext-w1-b,True,,
+237,typescript,True,1.7,0,,,,,0,,True,True,,3,3,3,True,{},{},23.4,0,ext-w1-d,True,,
+238,typescript,True,2.4,0,,,,,0,,True,True,,3,3,3,True,{},{},23.6,0,ext-w1-a,True,,
+239,typescript,True,3.3,0,,,,,0,,True,True,,3,3,3,True,{},{},50.8,0,ext-w1-d,True,,
+241,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},41.0,0,ext-w1-b,True,,
+242,typescript,True,1.5,0,,,,,0,,True,True,,4,4,4,True,{},{},24.2,0,ext-w1-a,True,,
+243,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},44.9,0,ext-w1-c,True,,
+245,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,True,,9,9,9,True,{},{},29.5,0,ext-w1-a,True,,
+246,typescript,True,2.4,0,,,,,0,,True,True,,3,3,3,True,{},{},37.6,0,ext-w1-b,True,,
+247,typescript,True,1.7,0,,,,,0,,True,True,,3,3,3,True,{},{},23.8,0,ext-w1-b,True,,
+248,typescript,True,3.8,0,,,,,0,,True,True,,3,3,3,True,{},{},54.1,0,ext-w1-d,True,,
+249,typescript,True,3.5,0,,,,,0,,True,True,,3,3,3,True,{},{},57.4,0,ext-w1-b,True,,
+250,typescript,True,2.9,0,,,,,0,,True,True,,2,2,2,True,{},{},42.8,0,ext-w1-b,True,,
+251,typescript,True,2.4,0,,,,,0,,True,True,,2,2,2,True,{},{},36.9,0,ext-w1-d,True,,
+252,typescript,True,3.0,0,,,,,0,,True,True,,2,2,2,True,{},{},43.6,0,ext-w1-c,True,,
+253,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},29.0,0,ext-w1-d,True,,
+254,typescript,True,1.5,0,,,,,0,,True,True,,2,2,2,True,{},{},26.2,0,ext-w1-b,True,,
+255,typescript,True,1.4,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},38.6,0,ext-w1-b,True,,
+256,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},30.2,0,ext-w1-a,True,,
+257,typescript,True,1.5,0,,,,,0,,True,True,,3,3,3,True,{},{},22.5,0,ext-w1-b,True,,
+258,typescript,True,3.7,0,,,,,0,,True,True,,3,3,3,True,{},{},54.8,0,ext-w1-d,True,,
+259,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},29.8,0,ext-w1-c,True,,
+260,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,True,True,,4,4,4,True,{},{},29.0,0,ext-w1-a,True,,
+261,typescript,True,2.4,0,,,,,0,,True,True,,4,4,4,True,{},{},37.4,0,ext-w1-b,True,,
+262,typescript,True,1.7,0,,,,,0,,True,True,,3,3,3,True,{},{},42.6,0,ext-w1-c,True,,
+263,typescript,True,2.8,0,,,,,0,,True,True,,2,2,2,True,{},{},40.3,0,ext-w1-a,True,,
+264,typescript,True,1.5,0,,,,,0,,True,True,,1,1,1,True,{},{},21.9,0,ext-w1-b,True,,
+265,typescript,True,1.5,0,,,,,0,,True,True,,1,1,1,True,{},{},24.1,0,ext-w1-c,True,,
+266,typescript,True,1.6,0,,,,,0,,True,True,,1,1,1,True,{},{},29.1,0,ext-w1-b,True,,
+267,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},38.1,0,ext-w1-b,True,,
+268,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},28.7,0,ext-w1-c,True,,
+269,typescript,True,1.7,0,,,,,0,,True,True,,2,2,2,True,{},{},23.3,0,ext-w1-a,True,,
+270,typescript,True,2.4,0,,,,,0,,True,True,,3,3,3,True,{},{},38.3,0,ext-w1-b,True,,
+271,typescript,True,2.9,0,,,,,0,,True,True,,3,3,3,True,{},{},57.3,0,ext-w1-a,True,,
+272,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},22.5,0,ext-w1-a,True,,
+273,typescript,True,1.4,0,,,,,0,,True,True,,3,3,3,True,{},{},23.3,0,ext-w1-b,True,,
+274,typescript,True,3.6,0,,,,,0,,True,True,,3,3,3,True,{},{},52.6,0,ext-w1-d,True,,
+275,typescript,True,2.7,0,,,,,0,,True,True,,2,2,2,True,{},{},51.9,0,ext-w1-b,True,,
+276,typescript,True,2.8,0,,,,,0,,True,True,,3,3,3,True,{},{},52.6,0,ext-w1-b,True,,
+277,typescript,True,2.3,0,,,,,0,,True,False,error: Running program 'runs\ext-w1-a\277\pulumi-ts/' failed with an unhandled exception:,,,,,,,33.4,,ext-w1-a,True,missing_file_in_package,"Error: failed to register new resource object [aws:s3/bucketObject:BucketObject]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file 'runs\ext-w1-a\277\pulumi-ts\path..."
+278,typescript,True,3.1,0,,,,,0,,True,False,error: Running program 'runs\ext-w1-d\278\pulumi-ts/' failed with an unhandled exception:,,,,,,,42.3,,ext-w1-d,True,missing_file_in_package,"Error: failed to register new resource object [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file 'runs\ext-w1-d\278\pulumi-ts\..."
+279,typescript,True,4.0,0,,,,,0,,True,True,,2,2,2,True,{},{},46.6,0,ext-w1-c,True,,
+280,typescript,True,2.0,0,,,,,0,,True,True,,2,2,2,True,{},{},22.3,0,ext-w1-d,True,,
+281,typescript,True,2.7,0,,,,,0,,True,True,,3,3,3,True,{},{},38.3,0,ext-w1-d,True,,
+282,typescript,True,3.2,0,,,,,0,,True,True,,2,2,2,True,{},{},42.3,0,ext-w1-c,True,,
+283,typescript,True,1.1,0,,,,,0,,True,True,,2,2,2,True,{},{},12.5,0,pilot-aligned,True,,
+284,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},30.0,0,ext-w1-c,True,,
+285,typescript,True,2.4,0,,,,,0,,True,True,,2,2,2,True,{},{},43.3,0,ext-w1-d,True,,
+286,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},27.7,0,ext-w1-b,True,,
+287,typescript,True,1.1,0,,,,,0,,True,True,,2,2,2,True,{},{},12.4,0,pilot-aligned,True,,
+288,typescript,True,3.3,0,,,,,0,,True,True,,2,2,2,True,{},{},104.1,0,ext-w1-a,True,,
+289,typescript,True,2.2,0,,,,,0,,True,True,,2,2,2,True,{},{},39.7,0,ext-w1-d,True,,
+290,typescript,True,3.1,0,,,,,0,,True,True,,2,2,2,True,{},{},44.1,0,ext-w1-c,True,,
+291,typescript,True,3.0,0,,,,,0,,True,True,,2,2,2,True,{},{},37.9,0,ext-w1-a,True,,
+292,typescript,True,3.2,0,,,,,0,,True,True,,3,3,3,True,{},{},49.1,0,ext-w1-d,True,,
+293,typescript,True,2.4,0,,,,,0,,True,True,,3,3,3,True,{},{},21.2,0,ext-w1-a,True,,
+294,typescript,True,2.4,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},37.9,0,ext-w1-a,True,,
+295,typescript,True,3.4,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},85.5,0,ext-w1-a,True,,
+296,typescript,True,1.2,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},12.3,0,pilot-aligned,True,,
+297,typescript,True,2.2,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},63.6,0,ext-w1-c,True,,
+298,typescript,True,3.7,1,assume_role,,,Provider config not supported,0,,True,True,,8,8,8,True,{},{},50.1,0,ext-w1-b,True,,
+299,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,8,8,8,True,{},{},45.3,0,ext-w1-b,True,,
+300,typescript,True,2.1,1,assume_role,,,Provider config not supported,0,,True,True,,8,8,8,True,{},{},24.9,0,ext-w1-a,True,,
+301,typescript,True,2.6,1,assume_role,,,Provider config not supported,0,,True,True,,8,8,8,True,{},{},35.5,0,ext-w1-a,True,,
+302,typescript,True,3.4,1,assume_role,,,Provider config not supported,0,,True,True,,14,14,14,True,{},{},49.2,0,ext-w1-a,True,,
+303,typescript,True,3.5,1,assume_role,,,Provider config not supported,0,,True,True,,14,14,14,True,{},{},39.7,0,ext-w1-a,True,,
+304,typescript,True,2.3,1,assume_role,,,Provider config not supported,0,,True,True,,14,14,14,True,{},{},26.1,0,ext-w1-b,True,,
+305,typescript,True,22.2,1,assume_role,,,Provider config not supported,0,,True,True,,14,14,14,True,{},{},147.5,0,ext-w1-c,True,,
+309,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},23.6,0,ext-w1-b,True,,
+310,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},29.7,0,ext-w1-b,True,,
+311,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},27.7,0,ext-w1-b,True,,
+312,typescript,True,2.4,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},27.9,0,ext-w1-d,True,,
+313,typescript,True,4.2,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},56.2,0,ext-w1-c,True,,
+314,typescript,True,5.0,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},60.3,0,ext-w1-b,True,,
+315,typescript,True,1.8,1,assume_role,,,Provider config not supported,0,,True,True,,6,6,6,True,{},{},22.7,0,ext-w1-a,True,,
+316,typescript,True,1.2,1,assume_role,,,Provider config not supported,0,,True,False,"error: Error: failed to register new resource put_website_css [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset f | error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file",,,,,,,12.7,,pilot-aligned,True,missing_file_in_package,"error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file"
+317,typescript,True,2.3,1,assume_role,,,Provider config not supported,0,,True,False,"error: Error: failed to register new resource put_website_css [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset f | error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file",,,,,,,42.4,,ext-w1-c,True,missing_file_in_package,"error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file"
+318,typescript,True,3.1,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},41.9,0,ext-w1-b,True,,
+319,typescript,True,2.0,1,assume_role,,,Provider config not supported,0,,True,False,"error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file  | error: Error: failed to register new resource put_website_css [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset f",,,,,,,46.4,,ext-w1-d,True,missing_file_in_package,"error: Error: failed to register new resource put_website [aws:s3/bucketObjectv2:BucketObjectv2]: 2 UNKNOWN: unmarshal properties: failed to compute asset hash for ""source"": failed to open asset file"
+324,typescript,True,2.3,0,,,,,0,,True,True,,3,3,3,True,{},{},29.4,0,ext-w1-d,True,,
+325,typescript,True,3.5,0,,,,,0,,True,True,,3,3,3,True,{},{},38.4,0,ext-w1-c,True,,
+326,typescript,True,5.4,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-d\326\pulumi-ts/' failed with an unhandled exception:",,,,,,,14.7,,ext-w1-d,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+327,typescript,False,12.1,0,,,,,,"error: <nil>: Error accessing remote module registry; Failed to retrieve available versions for registry.terraform.io/terraform-aws-modules/vpc/aws: failed to request discovery document: Get ""https://registry.terraform.io/.well-known/terraform.json"": net/http: request canceled while waiting for conn",skip,skip,,,,,,,,,,ext-w1-b,True,convert_network_timeout,"error: <nil>: Error accessing remote module registry; Failed to retrieve available versions for registry.terraform.io/terraform-aws-modules/vpc/aws: failed to request discovery document: Get ""https://registry.terrafor..."
+328,typescript,True,9.6,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-d\328\pulumi-ts/' failed with an unhandled exception:",,,,,,,23.4,,ext-w1-d,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+329,typescript,True,11.5,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\329\pulumi-ts/' failed with an unhandled exception:",,,,,,,39.6,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+330,typescript,True,4.5,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\pilot-aligned\330\pulumi-ts/' failed with an unhandled exception:",,,,,,,8.2,,pilot-aligned,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+331,typescript,True,6.4,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-d\331\pulumi-ts/' failed with an unhandled exception:",,,,,,,17.2,,ext-w1-d,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+332,typescript,True,5.5,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\332\pulumi-ts/' failed with an unhandled exception:",,,,,,,17.7,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+333,typescript,True,16.3,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-c\333\pulumi-ts/' failed with an unhandled exception:",,,,,,,35.7,,ext-w1-c,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+334,typescript,True,4.9,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\pilot-aligned\334\pulumi-ts/' failed with an unhandled exception:",,,,,,,8.1,,pilot-aligned,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+335,typescript,True,4.5,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\pilot-aligned\335\pulumi-ts/' failed with an unhandled exception:",,,,,,,8.0,,pilot-aligned,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+336,typescript,True,19.2,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-a\336\pulumi-ts/' failed with an unhandled exception:",,,,,,,19.0,,ext-w1-a,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+337,typescript,True,4.4,3,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\pilot-aligned\337\pulumi-ts/' failed with an unhandled exception:",,,,,,,8.1,,pilot-aligned,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+338,typescript,True,4.8,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\pilot-aligned\338\pulumi-ts/' failed with an unhandled exception:",,,,,,,8.1,,pilot-aligned,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+339,typescript,True,8.6,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-a\339\pulumi-ts/' failed with an unhandled exception:",,,,,,,23.0,,ext-w1-a,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+340,typescript,True,17.4,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-c\340\pulumi-ts/' failed with an unhandled exception:",,,,,,,19.9,,ext-w1-c,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+341,typescript,True,11.7,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\341\pulumi-ts/' failed with an unhandled exception:",,,,,,,18.1,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+342,typescript,True,13.8,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-d\342\pulumi-ts/' failed with an unhandled exception:",,,,,,,41.6,,ext-w1-d,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+343,typescript,True,23.8,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},146.4,0,ext-w1-a,True,,
+344,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},32.0,0,ext-w1-b,True,,
+345,typescript,True,2.9,1,assume_role,,,Provider config not supported,0,,True,True,,3,3,3,True,{},{},39.8,0,ext-w1-c,True,,
+346,typescript,True,8.5,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\346\pulumi-ts/' failed with an unhandled exception:",,,,,,,27.0,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+347,typescript,True,12.8,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\347\pulumi-ts/' failed with an unhandled exception:",,,,,,,35.6,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+348,typescript,True,9.9,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-a\348\pulumi-ts/' failed with an unhandled exception:",,,,,,,24.7,,ext-w1-a,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+349,typescript,True,7.6,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-d\349\pulumi-ts/' failed with an unhandled exception:",,,,,,,19.8,,ext-w1-d,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+350,typescript,True,3.3,0,,,,,0,,True,True,,1,1,1,True,{},{},55.2,0,ext-w1-c,True,,
+351,typescript,True,1.6,0,,,,,0,,True,True,,1,1,1,True,{},{},23.4,0,ext-w1-d,True,,
+352,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},36.0,0,ext-w1-d,True,,
+353,typescript,True,14.2,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\353\pulumi-ts/' failed with an unhandled exception:",,,,,,,18.6,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+354,typescript,True,5.6,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-b\354\pulumi-ts/' failed with an unhandled exception:",,,,,,,13.4,,ext-w1-b,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+355,typescript,True,10.5,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-a\355\pulumi-ts/' failed with an unhandled exception:",,,,,,,33.4,,ext-w1-a,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+356,typescript,True,11.7,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-a\356\pulumi-ts/' failed with an unhandled exception:",,,,,,,27.3,,ext-w1-a,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+357,typescript,True,11.0,2,assume_role,,,Provider config not supported;converting create_before_destroy lifecycle hook is not supported,0,,False,False,"compile: vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'. error: Running program 'runs\ext-w1-c\357\pulumi-ts/' failed with an unhandled exception:",,,,,,,39.8,,ext-w1-c,True,vpc_module_codegen,"vpc_5.19.0.ts(1115,9): error TS2322: Type 'true | Promise<boolean> | OutputInstance<boolean> | null' is not assignable to type 'Input<boolean> | undefined'."
+358,typescript,True,1.9,0,,,,,0,,True,True,,1,1,1,True,{},{},31.3,0,ext-w1-a,True,,
+359,typescript,True,1.7,0,,,,,0,,True,True,,1,1,1,True,{},{},30.0,0,ext-w1-d,True,,
+360,typescript,True,3.0,0,,,,,0,,True,True,,1,1,1,True,{},{},39.3,0,ext-w1-c,True,,
+361,typescript,True,1.1,0,,,,,0,,True,True,,1,1,1,True,{},{},12.3,0,pilot-aligned,True,,
+362,typescript,True,2.1,0,,,,,0,,True,True,,1,1,1,True,{},{},41.6,0,ext-w1-c,True,,
+363,typescript,True,1.9,0,,,,,0,,True,True,,3,3,3,True,{},{},27.7,0,ext-w1-c,True,,
+364,typescript,True,6.6,0,,,,,0,,True,True,,1,1,1,True,{},{},33.6,0,ext-w1-b,True,,
+365,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},27.3,0,ext-w1-a,True,,
+366,typescript,True,3.1,0,,,,,0,,True,True,,1,1,1,True,{},{},44.5,0,ext-w1-b,True,,
+367,typescript,True,5.7,0,,,,,0,,True,True,,1,1,1,True,{},{},87.4,0,ext-w1-c,True,,
+368,typescript,True,2.8,0,,,,,0,,True,True,,1,1,1,True,{},{},30.8,0,ext-w1-b,True,,
+369,typescript,True,3.5,0,,,,,0,,True,True,,1,1,1,True,{},{},54.4,0,ext-w1-b,True,,
+370,typescript,True,1.5,0,,,,,0,,True,True,,1,1,1,True,{},{},23.0,0,ext-w1-c,True,,
+371,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},35.8,0,ext-w1-b,True,,
+372,typescript,True,1.8,0,,,,,0,,True,True,,3,3,3,True,{},{},24.9,0,ext-w1-c,True,,
+373,typescript,True,3.7,0,,,,,0,,True,True,,3,3,3,True,{},{},41.7,0,ext-w1-c,True,,
+374,typescript,True,2.2,1,assume_role,,,Provider config not supported,0,,True,True,,5,5,5,True,{},{},37.9,0,ext-w1-c,True,,
+375,typescript,True,2.7,0,,,,,0,,True,True,,3,3,3,True,{},{},69.8,0,ext-w1-d,True,,
+376,typescript,True,7.3,0,,,,,0,,True,True,,1,1,1,True,{},{},44.4,0,ext-w1-a,True,,
+377,typescript,True,5.7,0,,,,,0,,True,True,,2,2,2,True,{},{},55.5,0,ext-w1-c,True,,
+378,typescript,True,1.7,0,,,,,0,,True,True,,4,4,4,True,{},{},22.2,0,ext-w1-a,True,,
+379,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},42.2,0,ext-w1-d,True,,
+380,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},22.3,0,ext-w1-c,True,,
+381,typescript,True,1.8,0,,,,,0,,False,False,"compile: index.ts(22,9): error TS2322: Type 'string' is not assignable to type 'Input<Input<string>[]> | undefined'. error: Running program 'runs\ext-w1-a\381\pulumi-ts/' failed with an unhandled exception:",,,,,,,9.2,,ext-w1-a,True,ts_type_error,"index.ts(22,9): error TS2322: Type 'string' is not assignable to type 'Input<Input<string>[]> | undefined'."
+382,typescript,True,2.2,0,,,,,0,,True,True,,2,2,2,True,{},{},28.5,0,ext-w1-a,True,,
+383,typescript,True,1.8,0,,,,,0,,True,True,,2,2,2,True,{},{},27.6,0,ext-w1-b,True,,
+384,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},47.5,0,ext-w1-b,True,,
+385,typescript,True,2.4,0,,,,,0,,True,True,,2,2,2,True,{},{},35.6,0,ext-w1-a,True,,
+386,typescript,True,2.5,0,,,,,0,,True,True,,2,2,2,True,{},{},38.0,0,ext-w1-b,True,,
+387,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},27.1,0,ext-w1-a,True,,
+406,typescript,True,5.3,0,,,,,0,,True,True,,1,1,1,True,{},{},49.5,0,ext-w1-c,True,,
+407,typescript,True,2.8,0,,,,,0,,True,True,,1,1,1,True,{},{},42.7,0,ext-w1-c,True,,
+408,typescript,True,1.1,0,,,,,0,,True,True,,1,1,1,True,{},{},12.3,0,pilot-aligned,True,,
+409,typescript,True,1.9,0,,,,,0,,True,True,,1,1,1,True,{},{},31.8,0,ext-w1-b,True,,
+410,typescript,True,1.9,0,,,,,0,,True,True,,1,1,1,True,{},{},33.1,0,ext-w1-c,True,,
+411,typescript,True,2.5,0,,,,,0,,True,True,,1,1,1,True,{},{},40.9,0,ext-w1-d,True,,
+412,typescript,True,1.7,0,,,,,0,,True,True,,2,2,2,True,{},{},24.0,0,ext-w1-a,True,,
+413,typescript,True,2.6,0,,,,,0,,True,True,,1,1,1,True,{},{},23.3,0,ext-w1-d,True,,
+414,typescript,True,1.4,0,,,,,0,,True,True,,1,1,1,True,{},{},23.6,0,ext-w1-c,True,,
+415,typescript,True,2.3,0,,,,,0,,True,True,,1,1,1,True,{},{},62.7,0,ext-w1-b,True,,
+416,typescript,True,1.5,0,,,,,0,,True,True,,1,1,1,True,{},{},23.0,0,ext-w1-b,True,,
+417,typescript,True,3.0,0,,,,,0,,True,True,,1,1,1,True,{},{},47.5,0,ext-w1-c,True,,
+418,typescript,True,1.9,0,,,,,0,,True,True,,1,1,1,True,{},{},28.6,0,ext-w1-c,True,,
+419,typescript,True,1.7,0,,,,,0,,True,True,,2,2,2,True,{},{},23.1,0,ext-w1-d,True,,
+420,typescript,True,2.9,0,,,,,0,,True,True,,2,2,2,True,{},{},41.9,0,ext-w1-d,True,,
+421,typescript,True,5.0,0,,,,,0,,True,True,,1,1,1,True,{},{},91.0,0,ext-w1-c,True,,
+422,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},27.9,0,ext-w1-a,True,,
+423,typescript,True,1.3,0,,,,,0,,True,True,,2,2,2,True,{},{},23.2,0,ext-w1-b,True,,
+424,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},24.4,0,ext-w1-b,True,,
+425,typescript,True,2.0,0,,,,,0,,True,True,,4,4,4,True,{},{},31.9,0,ext-w1-d,True,,
+426,typescript,True,1.6,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},22.7,0,ext-w1-b,True,,
+427,typescript,True,3.8,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},21.1,0,ext-w1-d,True,,
+428,typescript,True,1.1,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},12.4,0,pilot-aligned,True,,
+429,typescript,True,1.9,1,assume_role,,,Provider config not supported,0,,True,True,,7,7,7,True,{},{},28.8,0,ext-w1-c,True,,
+430,typescript,True,1.8,0,,,,,0,,True,True,,3,3,3,True,{},{},24.4,0,ext-w1-a,True,,
+431,typescript,True,2.9,0,,,,,0,,True,True,,3,3,3,True,{},{},37.8,0,ext-w1-b,True,,
+432,typescript,True,1.1,0,,,,,0,,True,True,,3,3,3,True,{},{},12.3,0,pilot-aligned,True,,
+433,typescript,True,1.9,0,,,,,0,,True,True,,2,2,2,True,{},{},27.5,0,ext-w1-d,True,,
+434,typescript,True,3.0,0,,,,,0,,True,True,,2,2,2,True,{},{},40.1,0,ext-w1-b,True,,
+435,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},33.0,0,ext-w1-a,True,,
+436,typescript,True,3.9,0,,,,,0,,True,True,,2,2,2,True,{},{},43.5,0,ext-w1-a,True,,
+437,typescript,True,4.1,1,assume_role,,,Provider config not supported,0,,True,True,,9,9,9,True,{},{},35.0,0,ext-w1-c,True,,
+438,typescript,True,3.0,1,assume_role,,,Provider config not supported,0,,True,True,,9,9,9,True,{},{},51.5,0,ext-w1-a,True,,
+439,typescript,True,6.8,1,assume_role,,,Provider config not supported,0,,True,True,,9,9,9,True,{},{},28.2,0,ext-w1-a,True,,
+440,typescript,True,2.4,0,,,,,0,,True,True,,1,1,1,True,{},{},49.7,0,ext-w1-a,True,,
+441,typescript,True,1.8,0,,,,,0,,True,True,,1,1,1,True,{},{},21.8,0,ext-w1-d,True,,
+442,typescript,True,2.6,0,,,,,0,,True,True,,2,2,2,True,{},{},39.6,0,ext-w1-a,True,,
+443,typescript,True,2.3,0,,,,,0,,True,True,,2,2,2,True,{},{},38.4,0,ext-w1-c,True,,
+444,typescript,True,1.4,0,,,,,0,,True,True,,2,2,2,True,{},{},23.0,0,ext-w1-b,True,,
+445,typescript,True,1.8,0,,,,,0,,True,True,,3,3,3,True,{},{},47.5,0,ext-w1-d,True,,
+446,typescript,True,2.1,0,,,,,0,,True,True,,3,3,3,True,{},{},24.9,0,ext-w1-d,True,,
+447,typescript,True,1.4,0,,,,,0,,True,True,,3,3,3,True,{},{},26.1,0,ext-w1-b,True,,
+448,typescript,True,3.7,0,,,,,0,,True,True,,3,3,3,True,{},{},58.6,0,ext-w1-d,True,,
+449,typescript,True,2.0,0,,,,,0,,True,True,,1,1,1,True,{},{},28.4,0,ext-w1-d,True,,
+450,typescript,True,2.3,0,,,,,0,,True,False,"error:   sdk-v2/provider2.go:515: sdk.helper_schema: allocation_id is not supported with connectivity_type = ""private"": provider=aws@6.72.0 | error: Preview failed: diffing urn:pulumi:emu::task-450::aws:ec2/natGateway:NatGateway::pike: 1 error occurred: | error: preview failed",,,,,,,38.3,,ext-w1-d,True,other,"error: sdk-v2/provider2.go:515: sdk.helper_schema: allocation_id is not supported with connectivity_type = ""private"": provider=aws@6.72.0"
+451,typescript,True,1.7,0,,,,,0,,True,True,,1,1,1,True,{},{},26.6,0,ext-w1-a,True,,
+452,typescript,True,2.8,0,,,,,0,,True,True,,3,3,3,True,{},{},39.0,0,ext-w1-a,True,,
+453,typescript,True,1.7,0,,,,,0,,True,True,,3,3,3,True,{},{},23.2,0,ext-w1-c,True,,
+454,typescript,True,3.1,0,,,,,0,,True,True,,3,3,3,True,{},{},60.3,0,ext-w1-c,True,,
+455,typescript,True,1.4,0,,,,,0,,True,True,,1,1,1,True,{},{},23.3,0,ext-w1-b,True,,
+456,typescript,True,3.4,0,,,,,0,,True,True,,2,2,2,True,{},{},54.6,0,ext-w1-d,True,,
+457,typescript,True,2.6,0,,,,,0,,True,True,,2,2,2,True,{},{},40.8,0,ext-w1-b,True,,

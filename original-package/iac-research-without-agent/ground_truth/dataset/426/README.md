@@ -1,0 +1,40 @@
+# Prompt 426
+
+## Resources
+
+aws_internet_gateway, aws_route_table, aws_route_table_association, aws_subnet, aws_vpc
+
+## Prompt
+
+create a VPC in AWS with multiple public subnets and associates them with a route table configured for internet access via an internet gateway.
+
+## Difficulty
+
+5
+
+## Intent
+
+Has one "aws_vpc" resource
+with a specified "cidr_block"
+with "enable_dns_hostnames" set to true
+with a "tags" map including a "Name" key
+
+Has one "aws_subnet" resources
+with "vpc_id" referencing the "aws_vpc" resource
+with specified "cidr_block" for each subnet
+in an indexed sequence with each subnet having a unique "availability_zone"
+with a "tags" map including a "Name" key that uniquely identifies each subnet
+
+Has one "aws_internet_gateway" resource
+with "vpc_id" referencing the "aws_vpc" resource
+with a "tags" map including a "Name" key
+
+Has one "aws_route_table" resource
+with "vpc_id" referencing the "aws_vpc" resource
+containing a default route for internet access through the "aws_internet_gateway"
+with a "tags" map including a "Name" key
+
+Has multiple "aws_route_table_association" resources
+linking each "aws_subnet" resource to the "aws_route_table" public
+with "subnet_id" and "route_table_id" set appropriately for each subnet
+

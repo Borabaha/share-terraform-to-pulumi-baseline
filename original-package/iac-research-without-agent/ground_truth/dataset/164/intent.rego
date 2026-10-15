@@ -1,0 +1,16 @@
+package main
+
+import rego.v1
+
+default allow := false
+
+# Check if AWS DynamoDB Kinesis Streaming Destination is being created for a specific table
+aws_dynamodb_kinesis_streaming_destination_valid(resources) if {
+	some resource in resources
+	resource.type == "aws_dynamodb_kinesis_streaming_destination"
+}
+
+# Aggregate all checks
+allow if {
+	aws_dynamodb_kinesis_streaming_destination_valid(input.resource_changes)
+}

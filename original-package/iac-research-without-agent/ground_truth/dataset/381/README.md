@@ -1,0 +1,24 @@
+# Prompt 381
+
+## Resources
+
+aws_dlm_lifecycle_policy, aws_glacier_vault
+
+## Prompt
+
+generate an S3 Glacier vault and use it with AWS Data Lifecycle Manager
+
+## Difficulty
+
+3
+
+## Intent
+
+has one "aws_glacier_vault" resource
+     with "name" attribute
+
+has one "aws_dlm_lifecycle_policy" resource
+    with "description" attribute
+    with "execution_role_arn"
+    with "policy_details"
+

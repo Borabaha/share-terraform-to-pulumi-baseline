@@ -1,0 +1,52 @@
+# Prompt 322
+
+## Resources
+
+aws_instance, aws_lb, aws_lb_listener, aws_lb_target_group, aws_lb_target_group_attachment, aws_route53_record, aws_route53_zone, aws_s3_bucket, aws_security_group, aws_subnet, aws_subnet, aws_vpc, aws_ami
+
+## Prompt
+
+The infrastructure for a video streaming site that has multiple servers to balance load. Accomplish this using the following resources: AWS Load Balancing, AWS Load Balancing target group, AWS Route53 zone, AWS Route53 record, and AWS VPC module, AWS VPC subnet, AWS VPC security group, AWS EC2 instance. Add any necessary resources.
+
+## Difficulty
+
+6
+
+## Intent
+
+have one "aws_s3_bucket" resource
+have one "aws_lb" resource
+  with "subnets" argument linking to aws_subnet resources
+  with "security_groups" argument linking aws_security_group resource
+have one "aws_lb_listener" resource
+  with "load_balancer_arn" argument linking to the aws_lb resource
+  with "default_action" argument block
+    with "type" argument with value "forward"
+    with "target_group_arn" argument linking to aws_lb_target_group resource
+with one "aws_lb_target_group" resource
+  with "vpc_id" argument linking to the aws_vpc resource
+with one "aws_lb_target_group_attachment" resource
+  with "target_group_arn" argument linking to the aws_lb_target_group resource
+  with "target_id" argument linking to the aws_instance resource
+have one "aws_ami" data resource
+have one "aws_instance" resource
+  with "instance_type" argument
+  with "ami" argument linking to the aws_ami data resource
+have one "aws_vpc" resource
+  with "cidr_block" argument
+have two "aws_subnet" resources
+  with "vpc_id" argument linking to the aws_vpc resource
+  with "cidr_block" argument
+have one "aws_security_group" resource
+  with "vpc_id" argument linking to the aws_vpc resource
+have one "aws_route53_zone" resource
+  with "name" argument
+have one "aws_route53_record" resources
+  with "type" argument
+  with "name" argument
+  with "zone_id" argument linking to the aws_route53_zone resource
+  with "alias" argument block
+    with "name" argument linking to the aws_lb dns_name
+    with "zone_id" argument linking to aws_lb zone_id
+    with "evaluate_target_health" argument
+

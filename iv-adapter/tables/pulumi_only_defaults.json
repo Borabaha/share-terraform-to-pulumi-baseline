@@ -1,0 +1,232 @@
+{
+ "_doc": "R-PU-14 table: defaults that exist only on the Pulumi side (bridge overlay `default.value` in get-mapping, which the",
+ "entries": [
+  {
+   "tf_type": "aws_api_gateway_api_key",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/apigateway/api_key.go#L54-L57"
+  },
+  {
+   "tf_type": "aws_appsync_api_key",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/appsync/api_key.go#L49-L52"
+  },
+  {
+   "tf_type": "aws_db_option_group",
+   "path": [
+    "option_group_description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/rds/option_group.go#L125-L129"
+  },
+  {
+   "tf_type": "aws_db_parameter_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/rds/parameter_group.go#L51-L55"
+  },
+  {
+   "tf_type": "aws_db_parameter_group",
+   "path": [
+    "parameter",
+    "apply_method"
+   ],
+   "pulumi_default": "immediate",
+   "tf_default": "immediate",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/rds/parameter_group.go#L83-L86 (types.ApplyMethodImmediate)"
+  },
+  {
+   "tf_type": "aws_db_subnet_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/rds/subnet_group.go#L47-L50"
+  },
+  {
+   "tf_type": "aws_docdb_subnet_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/docdb/subnet_group.go#L45-L48"
+  },
+  {
+   "tf_type": "aws_elasticache_parameter_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/elasticache/parameter_group.go#L47-L51"
+  },
+  {
+   "tf_type": "aws_elasticache_subnet_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/elasticache/subnet_group.go#L46-L49"
+  },
+  {
+   "tf_type": "aws_media_package_channel",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/mediapackage/channel.go#L50-L53"
+  },
+  {
+   "tf_type": "aws_neptune_subnet_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/neptune/subnet_group.go#L44-L47"
+  },
+  {
+   "tf_type": "aws_rds_cluster_parameter_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/rds/cluster_parameter_group.go#L49-L53"
+  },
+  {
+   "tf_type": "aws_redshift_parameter_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/redshift/parameter_group.go#L49-L53"
+  },
+  {
+   "tf_type": "aws_redshift_subnet_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/redshift/subnet_group.go#L45-L48"
+  },
+  {
+   "tf_type": "aws_route53_zone",
+   "path": [
+    "comment"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/route53/zone.go#L50-L53"
+  },
+  {
+   "tf_type": "aws_security_group",
+   "path": [
+    "description"
+   ],
+   "pulumi_default": "Managed by Pulumi",
+   "tf_default": "Managed by Terraform",
+   "tf_source": "https://github.com/hashicorp/terraform-provider-aws/blob/v5.90.0/internal/service/ec2/vpc_security_group.go#L68-L72"
+  }
+ ],
+ "package_schema_defaults": [
+  [
+   "aws:apigateway/apiKey:ApiKey",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:appsync/apiKey:ApiKey",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:docdb/subnetGroup:SubnetGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:ec2/securityGroup:SecurityGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:elasticache/parameterGroup:ParameterGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:elasticache/subnetGroup:SubnetGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:mediapackage/channel:Channel",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:neptune/subnetGroup:SubnetGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:rds/ParameterGroupParameter:ParameterGroupParameter",
+   "applyMethod",
+   "immediate"
+  ],
+  [
+   "aws:rds/clusterParameterGroup:ClusterParameterGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:rds/optionGroup:OptionGroup",
+   "optionGroupDescription",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:rds/parameterGroup:ParameterGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:rds/subnetGroup:SubnetGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:redshift/parameterGroup:ParameterGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:redshift/subnetGroup:SubnetGroup",
+   "description",
+   "Managed by Pulumi"
+  ],
+  [
+   "aws:route53/zone:Zone",
+   "comment",
+   "Managed by Pulumi"
+  ]
+ ]
+}

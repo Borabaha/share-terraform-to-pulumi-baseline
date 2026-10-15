@@ -1,0 +1,40 @@
+# Prompt 334
+
+## Resources
+
+aws_db_instance, aws_db_parameter_group, aws_db_subnet_group, aws_security_group, aws_subnet, aws_subnet, aws_vpc
+
+## Prompt
+
+Set up a PostgreSQL 15 instance on AWS RDS within specific public subnets for running Airbyte connector test cases, using managed settings for low maintenance.
+
+## Difficulty
+
+6
+
+## Intent
+
+Has one "aws_db_instance" resource
+    with one "allocated_storage"
+    with one "engine" = "postgres"
+    with one "engine_version" = "12.6"
+    with one "instance_class"
+    with one "password" 
+    with one "username"
+    with one "publicly_accessible" = false
+    with one "db_subnet_group_name" set to corrosponding db subnet group
+    with one "vpc_security_group_ids" set to corrosponding security group ids
+    
+
+Has one "aws_db_subnet_group" resource
+    with one "subnet_ids" attribute and IDs of the specific public and private subnets
+
+Has one "aws_security_group" resource
+    with security group rules to ensure the instance is not publicly accessible
+
+Has one "aws_vpc" resource
+    with one "cidr_block"
+
+Has at least one "aws_subnet" resource
+    with vpc_id set to corrosponding vpc id
+

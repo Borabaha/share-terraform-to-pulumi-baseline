@@ -1,0 +1,15 @@
+package terraform.validation
+
+import rego.v1
+
+# Set default validation state for aws_egress_only_internet_gateway
+default is_valid_egress_only_internet_gateway := false
+
+# Validate aws_egress_only_internet_gateway resource
+is_valid_egress_only_internet_gateway if {
+	some i
+	resource := input.configuration.root_module.resources[i]
+	resource.type == "aws_egress_only_internet_gateway"
+	resource.expressions.vpc_id != null
+	resource.expressions.tags != null # Verifies it is tagged with "permissions"
+}

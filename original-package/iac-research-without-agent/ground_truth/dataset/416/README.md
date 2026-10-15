@@ -1,0 +1,28 @@
+# Prompt 416
+
+## Resources
+
+aws_db_instance
+
+## Prompt
+
+create an aws database restored from s3
+
+## Difficulty
+
+2
+
+## Intent
+
+Has one "aws_db_instance" resource
+    with one "allocated_storage"
+    with one "engine" and a valid engine value
+    with one "instance_class" and a valid instance class type
+    with one "password"
+    with one "username"
+    with one s3_import
+        with one bucket_name
+        with one ingestion_role
+        with one source_engine
+        with one source_engine_verison
+

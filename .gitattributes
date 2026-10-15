@@ -1,0 +1,5 @@
+# Shell scripts keep LF line endings on every checkout (Git Bash on Windows can fail on CRLF)
+*.sh text eol=lf
+
+# Files of the original package are stored exactly as in the Zenodo zip (no line-ending conversion)
+original-package/** -text

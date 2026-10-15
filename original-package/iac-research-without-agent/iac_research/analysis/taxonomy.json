@@ -1,0 +1,96 @@
+{
+  "Syntax": {
+    "Invalid HCL": [
+      "Argument or block definition required",
+      "Invalid character",
+      "Missing newline",
+      "Error: Unclosed configuration block"
+    ],
+    "Format Constraint": [
+      "only lowercase",
+      "only alphanumeric",
+      "cannot begin with"
+    ]
+  },
+  "Schema": {
+    "Unsupported Argument": [
+      "Unsupported argument"
+    ],
+    "Unsupported Attribute": [
+      "Unsupported attribute"
+    ],
+    "Unsupported Block": [
+      "Unsupported block type"
+    ],
+    "Unsupported Resource": [
+      "Invalid resource type",
+      "Invalid data source"
+    ],
+    "Missing Required Argument": [
+      "Missing required argument"
+    ],
+    "Invalid Argument": [
+      "Invalid index",
+      "invalid value for master_password",
+      "invalid argument",
+      "Invalid format",
+      "Error: expected .+ to be one of",
+      "is not a valid",
+      "Your query returned no results",
+      "no matching",
+      "all attributes must be indexed.",
+      "is an invalid ARN",
+      "Invalid \"self\" reference"
+    ],
+    "Invalid Resource Reference": [
+      "Invalid reference",
+      "Cycle:",
+      "Reference to undeclared"
+    ],
+    "Invalid Combination": [
+      "Invalid combination"
+    ],
+    "Duplicate Resource": [
+      "Duplicate resource"
+    ],
+    "Duplicate Argument": [
+      "Attribute redefined"
+    ],
+    "Insufficient Required Blocks": [
+      "insufficient blocks",
+      "at least",
+      "blocks are required"
+    ],
+    "Too Many Blocks": [
+      "Too many .+ blocks"
+    ],
+    "Reserved Argument Name": [
+      "\\\"Default\\\" is not allowed"
+    ],
+    "Invalid Attribute": [
+      "Incorrect attribute value type",
+      "Invalid \\\"count\\\" attribute"
+    ],
+    "Invalid Argument Combination": [
+      "Invalid Attribute Combination"
+    ]
+  },
+  "Runtime": {
+    "File Not Found": [
+      "no such file",
+      "no\nsuch file",
+      "file not found",
+      "no file exists",
+      ".zip"
+    ],
+    "Provider Not Found": [
+      "does not have a provider named"
+    ],
+    "Duplicate Provider Configuration": [
+      "Duplicate provider configuration"
+    ],
+    "Version Constraint": [
+      "version constraint"
+    ]
+  }
+}

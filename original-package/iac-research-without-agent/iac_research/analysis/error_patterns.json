@@ -1,0 +1,86 @@
+{
+  "syntax_errors": [
+    "Error: (?:Invalid|Failed to) parse",
+    "Error: Syntax error",
+    "Error parsing",
+    "Error: Missing closing",
+    "Error: Unclosed configuration block",
+    "Error: Missing newline after argument",
+    "Error: Invalid character",
+    "Error: Argument or block definition required",
+    "Unexpected token",
+    "Invalid format",
+    "Invalid data source",
+    "invalid value for master_password"
+  ],
+  "provider_errors": [
+    "Error: Provider configuration",
+    "Error: Provider .+ not available",
+    "Error: Failed to query available provider packages",
+    "Error: Could not load plugin",
+    "Error: registry\\.terraform\\.io",
+    "Error: Duplicate provider configuration"
+  ],
+  "resource_validation_errors": [
+    "Error: (?:Invalid|Missing) required argument",
+    "Error: Required variable not set",
+    "Error: Unsuitable value type",
+    "Error: Reference to undeclared resource",
+    "Error: Reference to undefined resource",
+    "Error: Incorrect attribute value type",
+    "Error: Invalid \"self\" reference",
+    "Error: expected .+ to be one of",
+    "Error: Invalid index",
+    "Inappropriate value for attribute",
+    "Error: Your query returned no results",
+    "Error: all attributes must be indexed",
+    "Error: Invalid reference from destroy provisioner",
+    "Error: Invalid reference",
+    "The \"count\" object cannot be accessed directly",
+    "Error: Reference to undeclared input variable",
+    "Error: Cycle",
+    "Error: Invalid combination of arguments",
+    "Invalid Attribute Combination",
+    "Error: \"policy_arn\"",
+    "no matching",
+    "Too many"
+  ],
+  "resource_definition_errors": [
+    "Error: Invalid resource type",
+    "Error: Provider does not support resource type",
+    "Error: Unknown resource",
+    "Error: Unknown provider",
+    "Error: Invalid attribute name",
+    "Error: Unsupported attribute",
+    "Error: This provider doesn't support",
+    "Error: Invalid \"count\" attribute",
+    "Error: (?:Invalid|Unsupported) block type",
+    "Error: Unsupported argument"
+  ],
+  "duplicate_resource_errors": [
+    "Error: Duplicate resource",
+    "Resource names must be unique per type in each module"
+  ],
+  "invalid_name_errors": [
+    "only lowercase alphanumeric characters and hyphens allowed",
+    "only alphanumeric characters and hyphens allowed",
+    "cannot begin with",
+    "only lowercase alphanumeric characters, periods, and hyphens allowed",
+    "Error: \"Default\" is not allowed as \"name\""
+  ],
+  "attribute_redefinition_errors": [
+    "Error: Attribute redefined",
+    "The argument .+ was already set",
+    "Each argument may be set only once"
+  ],
+  "missing_block_errors": [
+    "Error: Insufficient .+ blocks",
+    "At least .+ \"\\w+\" blocks are required"
+  ],
+  "file_access_errors": [
+    "Error: Error in function call",
+    "Call to function .+ failed: open .+: no such file or directory",
+    "Invalid value for \"path\" parameter: no file exists at",
+    "no file exists"
+  ]
+}

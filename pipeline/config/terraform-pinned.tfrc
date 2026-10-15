@@ -1,0 +1,24 @@
+# Terraform CLI configuration that pins the provider versions of the original study, without changing main.tf.
+# Sources: the records in the original package (terraform_results_*.csv, validation/runs/*/init_results) and the paper.
+#   hashicorp/aws        5.90.0  (tasks without a version constraint, and tasks with "~> 5.75" or "~> 5.0")
+#   hashicorp/aws        4.67.0  (tasks with "~> 4.16")
+#   hashicorp/archive    2.7.0
+#   hashicorp/kubernetes 2.36.0
+#   hashicorp/random     3.7.1   (.terraform.lock.hcl inside the binary tfplan files of the original package; 5 tasks)
+#   hashicorp/null       3.2.3   (same source; 1 task: 90)
+# The mirror folder holds only these versions, and Terraform picks the highest one that fits each constraint.
+# For other providers the version used in the original study is not known, so they come from the normal registry.
+#
+# Mirror path: Terraform resolves a relative path from its working directory. pilot_runner.py runs Terraform in
+# pipeline/runs/<run>/_tfwork, so the path below points to <repository>/tools/tf-mirror. If you run Terraform from
+# another folder, replace it with the absolute path of tools/tf-mirror, written with forward slashes
+# (e.g. "C:/path/to/repository/tools/tf-mirror").
+provider_installation {
+  filesystem_mirror {
+    path    = "../../../../tools/tf-mirror"
+    include = ["registry.terraform.io/hashicorp/aws", "registry.terraform.io/hashicorp/archive", "registry.terraform.io/hashicorp/kubernetes", "registry.terraform.io/hashicorp/random", "registry.terraform.io/hashicorp/null"]
+  }
+  direct {
+    exclude = ["registry.terraform.io/hashicorp/aws", "registry.terraform.io/hashicorp/archive", "registry.terraform.io/hashicorp/kubernetes", "registry.terraform.io/hashicorp/random", "registry.terraform.io/hashicorp/null"]
+  }
+}

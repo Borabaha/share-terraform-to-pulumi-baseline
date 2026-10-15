@@ -1,0 +1,10 @@
+# Not part of the repository (see README.md)
+# Tool binaries: opa-1.1.0/opa.exe, tf-mirror/, pulumi-aws-6.72.0/bridge-metadata.json
+tools/
+# Per-task run folders written by the pipeline
+pipeline/runs/
+
+__pycache__/
+*.pyc
+node_modules/
+.venv*/

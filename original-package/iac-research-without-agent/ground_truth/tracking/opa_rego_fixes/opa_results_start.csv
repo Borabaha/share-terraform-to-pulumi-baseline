@@ -1,0 +1,428 @@
+Directory,Status,Details
+Successful Directories,,
+0,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_cloudwatch_log_group': True, 'is_valid_cloudwatch_log_resource_policy': True, 'is_valid_r53_zone': True, 'is_valid_route53_query_log': True}"
+1,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_zone': True, 'is_valid_vpc': True, 'is_valid_vpc_association': True, 'is_valid_zone_association': True}"
+10,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_app_version': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_s3_bucket': True, 'is_valid_s3_object': True}"
+102,Success,"terraform: {'analysis': {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True, 'valid_config': True}}"
+103,Success,"terraform: {'analysis': {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True, 'valid_config': True}}"
+104,Success,"terraform: validation: {'has_s3_bucket': True, 'has_s3_bucket_policy': True, 'valid_configuration': True}"
+107,Success,"terraform: validation: {'has_s3_bucket': True, 'has_s3_bucket_versioning': True, 'valid_configuration': True}"
+108,Success,"terraform: validation: {'has_dynamodb_table': True, 'has_s3_bucket_public_access_block': True, 'has_s3_bucket_server_side_encryption_configuration': True, 'has_s3_bucket_versioning': True, 'valid_configuration': True}"
+11,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_app_version': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True, 'is_valid_s3_bucket': True, 'is_valid_s3_object': True}"
+113,Success,"terraform: validation: {'has_s3_bucket': True, 'has_s3_bucket_request_payment_configuration': True, 'valid_configuration': True}"
+114,Success,"terraform: validation: {'has_s3_bucket': True, 'has_s3_bucket_public_access_block': True, 'valid_configuration': True}"
+12,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+122,Success,"terraform: validation: {'has_aws_s3_bucket_object': True, 'valid_configuration': True}"
+132,Success,main: allow: True
+133,Success,main: allow: True
+134,Success,main: allow: True
+135,Success,main: allow: True
+136,Success,main: allow: True
+137,Success,main: allow: True
+138,Success,main: allow: True
+139,Success,main: allow: True
+14,Success,"terraform: validation: {'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+140,Success,main: allow: True
+141,Success,main: allow: True
+142,Success,main: allow: True
+143,Success,main: allow: True
+144,Success,main: allow: True
+145,Success,main: allow: True
+146,Success,main: allow: True
+147,Success,main: allow: True
+148,Success,main: allow: True
+149,Success,main: allow: True
+15,Success,"terraform: validation: {'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+150,Success,main: allow: True
+151,Success,main: allow: True
+152,Success,main: allow: True
+153,Success,main: allow: True
+154,Success,main: allow: True
+155,Success,main: allow: True
+156,Success,main: allow: True
+157,Success,main: allow: True
+158,Success,main: allow: True
+159,Success,main: allow: True
+160,Success,main: allow: True
+161,Success,main: allow: True
+162,Success,main: allow: True
+164,Success,main: allow: True
+165,Success,main: allow: True
+166,Success,main: allow: True
+167,Success,main: allow: True
+168,Success,main: allow: True
+169,Success,main: allow: True
+170,Success,main: allow: True
+171,Success,main: allow: True
+172,Success,main: allow: True
+173,Success,main: allow: True
+174,Success,main: allow: True
+175,Success,main: allow: True
+176,Success,main: allow: True
+177,Success,main: allow: True
+178,Success,main: allow: True
+179,Success,main: allow: True
+180,Success,main: allow: True
+181,Success,main: allow: True
+183,Success,main: allow: True
+184,Success,main: allow: True
+185,Success,main: allow: True
+193,Success,main: allow: True
+194,Success,main: allow: True
+195,Success,main: allow: True
+196,Success,main: allow: True
+198,Success,main: allow: True
+199,Success,main: allow: True
+2,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_elb': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+20,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+200,Success,main: allow: True
+201,Success,main: allow: True
+202,Success,main: allow: True
+203,Success,main: allow: True
+204,Success,main: allow: True
+205,Success,main: allow: True
+206,Success,main: allow: True
+207,Success,main: allow: True
+208,Success,main: allow: True
+209,Success,main: allow: True
+21,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+210,Success,main: allow: True
+211,Success,main: allow: True
+212,Success,main: allow: True
+214,Success,main: allow: True
+215,Success,main: allow: True
+216,Success,main: allow: True
+217,Success,main: allow: True
+218,Success,main: allow: True
+219,Success,main: allow: True
+22,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+220,Success,main: allow: True
+221,Success,main: allow: True
+222,Success,main: allow: True
+223,Success,main: allow: True
+225,Success,main: allow: True
+226,Success,main: allow: True
+227,Success,main: allow: True
+228,Success,main: allow: True
+229,Success,main: allow: True
+23,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+230,Success,main: allow: True
+231,Success,main: allow: True
+232,Success,main: allow: True
+233,Success,{'vpc_ipv6': {'valid': True}}
+234,Success,{'vpc_netgate_basic': {'valid': True}}
+235,Success,{'vpc_egress_netgate': {'valid': True}}
+236,Success,{'vpc_two_subnet': {'valid': True}}
+237,Success,{'vpc_net_acl': {'valid': True}}
+238,Success,{'vpc_peer_connect': {'valid': True}}
+239,Success,{'vpc_gateway_route': {'valid': True}}
+24,Success,"terraform: validation: {'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+241,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'neptune_cluster_valid': True}}"
+242,Success,{'aws_neptune_cluster': {'valid': True}}
+244,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'instance_parameter_group_valid': True, 'valid': True}}"
+246,Success,{'aws_chime_voice_connector': {'valid': True}}
+247,Success,{'aws_chime_voice_connector': {'valid': True}}
+248,Success,"{'aws_chime_voice_connector': {'connectors_valid': True, 'valid': True}}"
+249,Success,"{'aws_chime_voice_connector': {'connectors_valid': True, 'valid': True}}"
+250,Success,{'aws_chime_voice_connector': {'valid': True}}
+251,Success,{'aws_chime_voice_connector': {'valid': True}}
+252,Success,{'aws_chime_voice_connector': {'valid': True}}
+253,Success,{'aws_chime_voice_connector': {'valid': True}}
+254,Success,{'aws_chime_voice_connector': {'valid': True}}
+255,Success,{'aws_redshift_endpoint_access': {'valid': True}}
+256,Success,{'aws_redshift_endpoint_access': {'valid': True}}
+257,Success,{'aws_redshift_cluster_event_subscription': {'valid': True}}
+258,Success,{'aws_redshift_cluster_event_subscription': {'valid': True}}
+259,Success,{'aws_redshift_cluster_parameter_event_subscription': {'valid': True}}
+26,Success,"terraform: validation: {'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_health_check': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+260,Success,{'aws_redshift_cluster_parameter_event_subscription': {'valid': True}}
+261,Success,{'iam_group_two_users': {'valid': True}}
+262,Success,{'iam_group_policy_attachment': {'valid': True}}
+263,Success,{'iam_user_ssh': {'valid': True}}
+264,Success,{'iam_group_basic': {'valid': True}}
+265,Success,{'iam_user_basic': {'valid': True}}
+266,Success,{'iam_mfa_basic': {'valid': True}}
+267,Success,{'aws_bucket': {'valid': True}}
+268,Success,{'aws_s3': {'valid': True}}
+269,Success,{'s3_bucket_accelerate': {'valid': True}}
+27,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+270,Success,{'s3_bucket_acl': {'valid': True}}
+271,Success,{'s3_bucket_analytics': {'valid': True}}
+272,Success,{'s3_bucket_intelligent_tiering': {'valid': True}}
+273,Success,{'s3_bucket_inventory': {'valid': True}}
+274,Success,{'aws_s3_bucket_inventory': {'valid': True}}
+276,Success,{'aws_s3_bucket_notification': {'valid': True}}
+279,Success,{'s3_bucket_object_lock': {'valid': True}}
+28,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_app_template': True}"
+281,Success,{'aws_s3_bucket_sse': {'valid': True}}
+282,Success,{'aws_s3_bucket_cors': {'valid': True}}
+283,Success,{'aws_s3_bucket_cors': {'valid': True}}
+284,Success,{'aws_s3_bucket_website': {'valid': True}}
+285,Success,{'aws_s3_bucket_website': {'valid': True}}
+286,Success,{'aws_s3_bucket_public_access_block': {'valid': True}}
+287,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+288,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+289,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+29,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_app_template': True}"
+290,Success,{'aws_s3_bucket_versioning': {'valid': True}}
+291,Success,{'aws_s3_bucket_versioning': {'valid': True}}
+292,Success,{'s3_bucket_logging': {'valid': True}}
+293,Success,{'s3_bucket_logging': {'valid': True}}
+294,Success,{'autograder_high': {'valid': True}}
+295,Success,{'autograder_middle': {'valid': True}}
+296,Success,{'autograder_middle': {'valid': True}}
+298,Success,{'autograder_high_jail': {'valid': True}}
+299,Success,{'autograder': {'valid': True}}
+30,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True}"
+300,Success,{'autograder': {'valid': True}}
+302,Success,{'caas_high': {'valid': True}}
+303,Success,{'caas_middle': {'valid': True}}
+304,Success,{'caas_middle': {'valid': True}}
+305,Success,{'caas': {'valid': True}}
+309,Success,{'cloud_desktop': {'valid': True}}
+31,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_iam_role': True}"
+310,Success,{'job_scheduler_high': {'valid': True}}
+311,Success,{'job_scheduler_high': {'valid': True}}
+312,Success,{'job_scheduler_high': {'valid': True}}
+316,Success,{'netflix_high': {'valid': True}}
+317,Success,{'netflix_middle': {'valid': True}}
+318,Success,{'netflix_middle': {'valid': True}}
+319,Success,{'netflix': {'valid': True}}
+32,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_iam_role': True}"
+324,Success,"terraform: validation: {'has_one_random_id': True, 'has_one_random_password': True, 'has_required_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True}"
+325,Success,"terraform: validation: {'has_one_random_id': True, 'has_one_random_password': True, 'has_required_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True}"
+33,Success,"terraform: validation: {'has_valid_codebuild': True, 'has_valid_resources': True}"
+34,Success,"terraform: validation: {'has_valid_codebuild': True, 'has_valid_resources': True}"
+343,Success,"terraform: validation: {'is_valid_db_instance': True, 'is_valid_random_string': True, 'is_valid_security_group': True}"
+344,Success,"terraform: validation: {'is_valid_db_instance': True, 'is_valid_random_string': True, 'is_valid_security_group': True}"
+345,Success,"terraform: validation: {'is_valid_db_instance': True, 'is_valid_random_string': True, 'is_valid_security_group': True}"
+35,Success,"terraform: validation: {'has_valid_codebuild': True, 'has_valid_resources': True}"
+351,Success,"{'rds_new': {'is_valid_db_option_group': True, 'pattern': '^11(\\.0+)?$'}}"
+352,Success,"terraform: validation: {'is_valid_db_option_group': True, 'pattern': '^11(\\.0+)?$'}"
+358,Success,terraform: validation: {'is_valid_lightsail_instance': True}
+359,Success,"{'aws_lightsail_instance': {'lightsail_instance_valid': True, 'name_is_valid': True}}"
+36,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_codebuild': True, 'has_valid_resources': True}"
+360,Success,terraform: validation: {'is_valid_lightsail_instance': True}
+361,Success,terraform: validation: {'is_valid_lightsail_instance': True}
+362,Success,terraform: validation: {'has_valid_lightsail_instance': True}
+363,Success,"terraform: validation: {'has_lightsail_instance': True, 'has_lightsail_static_ip': True, 'has_lightsail_static_ip_attachment': True, 'has_required_resources': True}"
+364,Success,terraform: validation: {'has_valid_lightsail_instance': True}
+365,Success,"terraform: validation: {'has_all_required_resources': False, 'has_valid_lightsail_instance': True}"
+366,Success,terraform: validation: {'has_valid_lightsail_database': True}
+367,Success,terraform: validation: {'has_valid_lightsail_database': True}
+368,Success,terraform: validation: {'has_valid_lightsail_database': True}
+369,Success,terraform: validation: {'has_valid_lightsail_database': True}
+37,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_codebuild': True, 'has_valid_resources': True}"
+370,Success,terraform: validation: {'has_valid_lightsail_database': True}
+371,Success,terraform: validation: {'has_valid_lightsail_disk': True}
+372,Success,terraform: validation: {'has_valid_lightsail_disk': True}
+373,Success,terraform: validation: {'has_valid_lightsail_disk': True}
+374,Success,"terraform: validation: {'has_valid_lightsail_disk_attachments': True, 'has_valid_lightsail_disks': True, 'has_valid_lightsail_instance': True, 'has_valid_resources': True}"
+375,Success,"terraform: validation: {'has_valid_lightsail_bucket': True, 'has_valid_lightsail_bucket_access': True, 'has_valid_lightsail_instance': True, 'has_valid_resources': True}"
+376,Success,terraform: validation: {'has_valid_lightsail_certificate': True}
+377,Success,"terraform: validation: {'has_valid_lightsail_bucket': True, 'has_valid_lightsail_distribution': True, 'has_valid_resources': True}"
+378,Success,"terraform: validation: {'has_lightsail_distribution': True, 'has_lightsail_instance': True, 'has_valid_lightsail_resources': True}"
+379,Success,terraform: validation: {'is_valid_glacier_vault': True}
+38,Success,"terraform: validation: {'has_valid_codebuild': True, 'has_valid_resources': True}"
+380,Success,terraform: validation: {'is_valid_glacier_vault': True}
+381,Success,"terraform: validation: {'is_valid_dlm_lifecycle_policy': True, 'is_valid_glacier_vault': True, 'is_valid_terraform_plan': True}"
+382,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_sns_topic': True, 'is_valid_terraform_plan': True}"
+383,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_sns_topic': True, 'is_valid_terraform_plan': True}"
+384,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_terraform_plan': True}"
+385,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_glacier_vault_lock': True, 'is_valid_terraform_plan': True}"
+386,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_glacier_vault_lock': True, 'is_valid_terraform_plan': True}"
+387,Success,"terraform: validation: {'is_valid_glacier_vault': True, 'is_valid_sns_topic': True, 'is_valid_terraform_plan': True}"
+39,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_codebuild': True, 'has_valid_resources': True}"
+4,Success,"terraform: validation: {'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True, 'is_valid_subnet': True, 'is_valid_subnet_group': True, 'is_valid_vpc': True}"
+40,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_codebuild': True, 'has_valid_resources': True}"
+406,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+407,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+408,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+409,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+41,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_codebuild': True, 'has_valid_resources': True}"
+410,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+411,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+412,Success,"terraform: validation: {'has_required_db_arguments': True, 'has_valid_replica': True, 'is_valid_db_instance': True}"
+413,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+414,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+415,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+416,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+417,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+418,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True}"
+419,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True, 'is_valid_kms_key': True}"
+42,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+420,Success,"terraform: validation: {'has_required_db_arguments': True, 'is_valid_db_instance': True, 'is_valid_db_snapshot': True}"
+421,Success,terraform: validation: {'is_valid_efs_file_system': True}
+422,Success,terraform: validation: {'is_valid_efs_file_system': True}
+423,Success,"terraform: validation: {'has_valid_efs_file_system': True, 'has_valid_efs_file_system_policy': True, 'is_valid_efs_setup': True}"
+424,Success,"terraform: validation: {'has_valid_aws_efs_backup_policy': True, 'has_valid_efs_file_system': True, 'is_valid_efs_setup': True}"
+425,Success,"terraform: validation: {'has_valid_aws_efs_mount_target': True, 'has_valid_efs_file_system': True, 'has_valid_vpc': True, 'have_required_subnet_argument': True, 'have_required_vpc_argument': True, 'is_valid_efs_setup': True, 'is_valid_subnet': True, 'is_valid_vpc': True}"
+43,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+430,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_vpc': True}"
+431,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_vpc': True}"
+432,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_vpc': True}"
+433,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_vpc': True}"
+434,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_vpc': True}"
+435,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_vpc': True}"
+436,Success,"terraform: validation: {'is_valid_internet_gateway': True, 'is_valid_vpc': True}"
+439,Success,"terraform: validation: {'is_valid_db_subnet_group': True, 'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_security_group': True, 'is_valid_subnets1': True, 'is_valid_subnets2': True, 'is_valid_vpc': True}"
+44,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+440,Success,terraform: validation: {'is_valid_egress_only_internet_gateway': True}
+441,Success,terraform: validation: {'is_valid_egress_only_internet_gateway': True}
+442,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True}"
+443,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True}"
+444,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True}"
+445,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True, 'is_valid_vpc': True}"
+446,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True, 'is_valid_vpc': True}"
+447,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True, 'is_valid_vpc': True}"
+448,Success,"terraform: validation: {'is_valid_dhcp_options': True, 'is_valid_dhcp_options_association': True, 'is_valid_vpc': True}"
+449,Success,terraform: validation: {'is_valid_nat_gateway': True}
+45,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+450,Success,terraform: validation: {'is_valid_nat_gateway': True}
+451,Success,terraform: validation: {'is_valid_nat_gateway': True}
+452,Success,"terraform: validation: {'is_valid_vpc_peering_connection': True, 'is_valid_vpcs': True}"
+453,Success,"terraform: validation: {'is_valid_vpc_peering_connection': True, 'is_valid_vpcs': True}"
+454,Success,"terraform: validation: {'is_valid_vpc_peering_connection': True, 'is_valid_vpcs': True}"
+455,Success,terraform: validation: {'is_valid_network_acl': True}
+456,Success,terraform: validation: {'is_valid_network_acl': True}
+457,Success,terraform: validation: {'is_valid_network_acl': True}
+46,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+47,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+48,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+49,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+5,Success,"terraform: validation: {'has_required_db_replica1_arguments': True, 'has_required_db_replica2_arguments': True, 'has_required_main_db_arguments': True, 'is_configuration_valid': True, 'is_valid_db_instance_main': True, 'is_valid_db_instance_replica1': True, 'is_valid_db_instance_replica2': True, 'is_valid_r53_record_primary': True, 'is_valid_r53_record_secondary': True, 'is_valid_r53_zone': True}"
+50,Success,"terraform: validation: {'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+53,Success,"terraform: validation: {'has_valid_connect_bot_association': True, 'has_valid_connect_instance': True, 'has_valid_lex_bot_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': True}"
+56,Success,"terraform: validation: {'has_valid_kinesis_stream': True, 'has_valid_resources': True}"
+57,Success,"terraform: validation: {'has_valid_kinesis_analytics_application': True, 'has_valid_kinesis_stream': True, 'has_valid_resources': True}"
+58,Success,"terraform: validation: {'has_valid_kinesisanalyticsv2_application': True, 'has_valid_resources': True}"
+59,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+6,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+60,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_redshift_cluster': True, 'has_valid_resources': True}"
+61,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_elasticsearch_cluster': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+62,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_opensearch_cluster': True, 'has_valid_resources': True}"
+63,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+64,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_opensearchserverless_collection': True, 'has_valid_resources': True}"
+65,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_elasticsearch_cluster': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+66,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+67,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_opensearch_cluster': True, 'has_valid_resources': True}"
+68,Success,"terraform: validation: {'has_valid_kinesis_video_stream': True, 'has_valid_resources': True}"
+69,Success,"terraform: validation: {'has_valid_kinesis_stream': True, 'has_valid_kinesis_stream_consumer': True, 'has_valid_resources': True}"
+7,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+70,Success,"terraform: validation: {'has_valid_bucket': True, 'has_valid_firehose_delivery_stream': True, 'has_valid_resources': True}"
+71,Success,"terraform: validation: {'has_valid_kinesis_analytics_application': True, 'has_valid_resources': True}"
+72,Success,"terraform: validation: {'has_valid_kinesisanalyticsv2_application': True, 'has_valid_resources': True}"
+74,Success,"terraform: validation: {'has_valid_kendra_data_source': True, 'has_valid_kendra_index': True, 'has_valid_resources': True}"
+75,Success,"terraform: validation: {'has_valid_kendra_data_source': True, 'has_valid_kendra_index': True, 'has_valid_resources': True}"
+76,Success,"terraform: validation: {'has_valid_kendra_index': True, 'has_valid_resources': True}"
+77,Success,"terraform: validation: {'has_valid_kendra_index': True, 'has_valid_resources': True}"
+78,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_zone': True}"
+79,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}"
+8,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}"
+80,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True, 'is_valid_vpc': True}"
+83,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_cloud_watch_alarm': True, 'is_valid_r53_health_check': True}"
+84,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_record_eu': True, 'is_valid_r53_record_na': True, 'is_valid_r53_zone': True}"
+86,Success,"terraform: validation: {'is_configuration_valid': True, 'is_valid_r53_traffic_policy': True}"
+87,Success,"terraform: validation: {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment_eks_cluster': True, 'has_aws_iam_role_policy_attachment_eks_service': True, 'valid_configuration': True}"
+89,Success,"terraform: validation: {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment_eks_cluster': True, 'has_aws_iam_role_policy_attachment_eks_service': True, 'valid_configuration': True}"
+90,Success,"terraform: validation: {'has_aws_eks_cluster_auth': True, 'has_aws_eks_fargate_profile': True, 'has_aws_iam_role_fargate': True, 'has_aws_iam_role_policy_attachment_fargate': True, 'has_null_resource_k8s_patcher': True, 'valid_configuration': True}"
+91,Success,terraform: validation: {'has_aws_eks_access_entry_example': True}
+92,Success,terraform: validation: {'has_aws_eks_access_policy_association_example': True}
+93,Success,terraform: validation: {'has_aws_eks_addon_example': True}
+95,Success,terraform: validation: {'has_aws_eks_fargate_profile_example': True}
+96,Success,"terraform: validation: {'has_aws_iam_role_example': True, 'has_aws_iam_role_policy_attachment_example': True, 'valid_configuration': True}"
+97,Success,terraform: validation: {'has_aws_eks_identity_provider_config_example': True}
+98,Success,terraform: validation: {'has_aws_eks_node_group_example': True}
+99,Success,"terraform: validation: {'has_aws_eks_pod_identity_association_example': True, 'has_aws_iam_policy_document_assume_role': True, 'has_aws_iam_role_example': True, 'has_aws_iam_role_policy_attachment_example_s3': True, 'valid_configuration': True}"
+Failed Directories,,
+100,Failure,"{'terraform': {'validation': {'has_aws_eks_cluster_demo_eks': False, 'has_aws_iam_policy_document_assume_role_eks': True, 'has_aws_iam_role_demo_eks': False, 'has_aws_iam_role_policy_attachment_demo_eks_AmazonEKSClusterPolicy': False, 'has_aws_iam_role_policy_attachment_demo_eks_AmazonEKSVPCResourceController': False}}}"
+101,Failure,"{'terraform': {'analysis': {'has_aws_eks_cluster': False, 'has_aws_iam_role': False, 'has_aws_iam_role_policy_attachment': False}}}"
+105,Failure,"{'terraform': {'validation': {'has_s3_bucket': False, 'has_s3_bucket_metrix': False, 'has_s3_bucket_object': False, 'valid_configuration': False}}}"
+106,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket_acl': False, 'has_aws_s3_bucket_public_access_block': True, 'has_aws_s3_bucket_server_side_encryption_configuration': False, 'has_s3_bucket': False, 'valid_configuration': False}}}"
+109,Failure,"{'terraform': {'validation': {'has_s3_bucket': False, 'has_s3_bucket_acl': True, 'has_s3_bucket_lifecycle_configuration_one': True, 'has_s3_bucket_lifecycle_configuration_two': True, 'has_s3_bucket_versioning': True, 'valid_configuration': False}}}"
+110,Failure,"{'terraform': {'validation': {'has_s3_bucket': True, 'has_s3_bucket_logging': False, 'valid_configuration': False}}}"
+111,Failure,"{'terraform': {'validation': {'has_s3_bucket': False, 'has_s3_bucket_object_lock_configuration': True, 'valid_configuration': False}}}"
+112,Failure,"{'terraform': {'validation': {'has_s3_bucket': False, 'has_s3_bucket_object_lock_configuration': True, 'valid_configuration': False}}}"
+115,Failure,"{'terraform': {'validation': {'has_s3_bucket': True, 'has_s3_bucket_acl': False, 'has_s3_bucket_ownership_controls': True, 'has_s3_bucket_policy': True, 'has_s3_bucket_public_access_block': True, 'valid_configuration': False}}}"
+116,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket': True, 'has_aws_s3_bucket_acl': False, 'has_aws_s3_bucket_policy': False}}}"
+117,Failure,"{'terraform': {'validation': {'has_aws_iam_policy_document_topic': True, 'has_aws_s3_bucket': True, 'has_aws_s3_bucket_notification': False, 'has_aws_sns_topic': False}}}"
+118,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket': True, 'has_aws_s3_bucket_object_lock_configuration': False, 'has_aws_s3_bucket_versioning': False}}}"
+119,Failure,"{'terraform': {'validation': {'has_aws_kms_key': True, 'has_aws_s3_bucket': True, 'has_aws_s3_bucket_server_side_encryption_configuration': False}}}"
+120,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket': True, 'has_aws_s3_bucket_acl': False, 'has_aws_s3_bucket_ownership_controls': False}}}"
+121,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket_acl_example': False, 'has_aws_s3_bucket_acl_log': False, 'has_aws_s3_bucket_example': True, 'has_aws_s3_bucket_log': True, 'has_aws_s3_bucket_logging_example': False}}}"
+123,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket_example': True, 'has_aws_s3_bucket_ownership_controls_example': False}}}"
+124,Failure,{'terraform': {'ami_latest_amazon_linux_2': True}}
+125,Failure,{'terraform': {'ami_latest_amazon_linux_2': True}}
+126,Failure,{'main': {'allow': False}}
+127,Failure,"{'main': {'allow': False, 'aws_instances': []}}"
+128,Failure,"{'main': {'ec2_fleet_valid': False, 'launch_template_valid': False, 'private_subnet_exists': True, 'public_subnet_exists': True}}"
+13,Failure,"{'terraform': {'validation': {'is_configuration_valid': False, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_record': False, 'is_valid_r53_zone': True}}}"
+16,Failure,"{'terraform': {'validation': {'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': False, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}}}"
+163,Failure,{'main': {'allow': False}}
+17,Failure,"{'terraform': {'validation': {'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': False, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True}}}"
+18,Failure,"{'terraform': {'validation': {'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_route_table_association': True, 'is_valid_security_group': False, 'is_valid_subnet': True, 'is_valid_subnet_group': True, 'is_valid_vpc': True}}}"
+182,Failure,{'main': {'allow': False}}
+186,Failure,{'main': {'allow': False}}
+187,Failure,{'terraform': {'ami_latest_amazon_linux_2': True}}
+188,Failure,"{'main': {'allow': False, 'aws_instances': []}}"
+19,Failure,"{'terraform': {'validation': {'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_route_table_association': True, 'is_valid_security_group': False, 'is_valid_subnet': True, 'is_valid_subnet_group': True, 'is_valid_vpc': True}}}"
+197,Failure,{'main': {'allow': False}}
+213,Failure,{'main': {'allow': False}}
+224,Failure,{'main': {'allow': False}}
+243,Failure,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': False, 'valid': False}}"
+245,Failure,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': False, 'instance_parameter_group_valid': False, 'valid': False}}"
+25,Failure,"{'terraform': {'validation': {'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance': True, 'is_valid_eb_app': True, 'is_valid_eb_env': False, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_r53_record': True, 'is_valid_r53_zone': True}}}"
+275,Failure,{'s3_bucket_metric': {'valid': False}}
+277,Failure,{'s3_bucket_object': {'valid': False}}
+278,Failure,{'aws_s3_object': {'valid': False}}
+280,Failure,{'s3_bucket_ownership_controls': {'valid': False}}
+297,Failure,{'autograder': {'valid': False}}
+3,Failure,"{'terraform': {'validation': {'has_required_db_replicaap_arguments': True, 'has_required_db_replicaeu_arguments': True, 'has_required_db_replicaus_arguments': True, 'has_required_main_db_arguments': True, 'is_configuration_valid': False, 'is_valid_db_instance_main': True, 'is_valid_db_instance_replicaap': True, 'is_valid_db_instance_replicaeu': True, 'is_valid_db_instance_replicaus': True, 'is_valid_r53_record_ap': False, 'is_valid_r53_record_eu': False, 'is_valid_r53_record_us': False, 'is_valid_r53_zone': True}}}"
+301,Failure,{'autograder': {'valid': False}}
+313,Failure,{'job_scheduler': {'valid': False}}
+314,Failure,{'job_scheduler': {'valid': False}}
+315,Failure,{'job_scheduler': {'valid': False}}
+326,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+327,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+328,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+329,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+330,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_parameter_group': True, 'is_valid_db_subnet_group': True, 'is_valid_kms_key': True, 'is_valid_security_group': False}}}"
+331,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_parameter_group': True, 'is_valid_db_subnet_group': True, 'is_valid_kms_key': True, 'is_valid_security_group': False}}}"
+332,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_parameter_group': True, 'is_valid_db_subnet_group': True, 'is_valid_kms_key': True, 'is_valid_security_group': False}}}"
+333,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_parameter_group': True, 'is_valid_db_subnet_group': True, 'is_valid_kms_key': True, 'is_valid_security_group': False}}}"
+334,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+335,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+336,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+337,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': False, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+338,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False, 'subnets': []}}}"
+339,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False, 'subnets': []}}}"
+340,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False, 'subnets': []}}}"
+341,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False, 'subnets': []}}}"
+342,Failure,"{'terraform': {'validation': {'is_valid_db_instance': False, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False, 'subnets': []}}}"
+346,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+347,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+348,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+349,Failure,"{'terraform': {'validation': {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+350,Failure,"{'rds_new': {'is_valid_db_option_group': False, 'pattern': '^11(\\.0+)?$'}}"
+353,Failure,"{'terraform': {'validation': {'is_valid_aws_db_proxy': True, 'is_valid_aws_db_subnet_group': True, 'is_valid_aws_iam_role': True, 'is_valid_aws_rds_cluster': True, 'is_valid_aws_secretsmanager_secret': False, 'is_valid_aws_security_group': False, 'is_valid_aws_subnet': False, 'is_valid_aws_vpc': False}}}"
+354,Failure,"{'terraform': {'validation': {'is_valid_aws_db_proxy': True, 'is_valid_aws_db_subnet_group': True, 'is_valid_aws_iam_role': True, 'is_valid_aws_rds_cluster': True, 'is_valid_aws_secretsmanager_secret': False, 'is_valid_aws_security_group': False, 'is_valid_aws_subnet': False, 'is_valid_aws_vpc': False}}}"
+355,Failure,"{'terraform': {'validation': {'is_valid_aws_db_proxy': True, 'is_valid_aws_db_subnet_group': True, 'is_valid_aws_iam_role': True, 'is_valid_aws_rds_cluster': True, 'is_valid_aws_secretsmanager_secret': False, 'is_valid_aws_security_group': False, 'is_valid_aws_subnet': False, 'is_valid_aws_vpc': False}}}"
+356,Failure,"{'terraform': {'validation': {'is_valid_aws_db_proxy': True, 'is_valid_aws_db_subnet_group': True, 'is_valid_aws_iam_role': True, 'is_valid_aws_rds_cluster': False, 'is_valid_aws_secretsmanager_secret': False, 'is_valid_aws_security_group': False, 'is_valid_aws_subnet': False, 'is_valid_aws_vpc': False}}}"
+357,Failure,"{'terraform': {'validation': {'is_valid_aws_db_proxy': True, 'is_valid_aws_db_subnet_group': True, 'is_valid_aws_iam_role': True, 'is_valid_aws_rds_cluster': True, 'is_valid_aws_secretsmanager_secret': False, 'is_valid_aws_security_group': False, 'is_valid_aws_subnet': False, 'is_valid_aws_vpc': False}}}"
+426,Failure,"{'terraform': {'validation': {'is_valid_internet_gateway': True, 'is_valid_route_table': False, 'is_valid_route_table_association': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+427,Failure,"{'terraform': {'validation': {'is_valid_internet_gateway': True, 'is_valid_route_table': False, 'is_valid_route_table_association': True, 'is_valid_subnet': False, 'is_valid_vpc': True}}}"
+428,Failure,"{'terraform': {'validation': {'is_valid_internet_gateway': True, 'is_valid_route_table': False, 'is_valid_route_table_association': True, 'is_valid_subnet': True, 'is_valid_vpc': False}}}"
+429,Failure,"{'terraform': {'validation': {'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_route_table_association': True, 'is_valid_subnet': False, 'is_valid_vpc': False}}}"
+437,Failure,"{'terraform': {'validation': {'is_valid_db_subnet_group': True, 'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_security_group': True, 'is_valid_subnets1': False, 'is_valid_subnets2': False, 'is_valid_vpc': True}}}"
+438,Failure,"{'terraform': {'validation': {'is_valid_db_subnet_group': True, 'is_valid_internet_gateway': True, 'is_valid_route_table': True, 'is_valid_security_group': True, 'is_valid_subnets1': False, 'is_valid_subnets2': False, 'is_valid_vpc': True}}}"
+51,Failure,"{'terraform': {'validation': {'has_valid_lexv2models_bot_instance': True, 'has_valid_resources': False}}}"
+52,Failure,"{'terraform': {'validation': {'has_valid_lexv2models_bot_instance': True, 'has_valid_resources': False}}}"
+54,Failure,"{'terraform': {'validation': {'has_valid_connect_bot_association': True, 'has_valid_connect_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': False}}}"
+55,Failure,"{'terraform': {'validation': {'has_valid_connect_bot_association': True, 'has_valid_connect_instance': True, 'has_valid_lex_intents': True, 'has_valid_resources': False}}}"
+73,Failure,{'terraform': {'validation': {'has_valid_resources': False}}}
+81,Failure,"{'terraform': {'validation': {'is_configuration_valid': False, 'is_valid_r53_health_check': False, 'is_valid_r53_record_primary': True, 'is_valid_r53_record_secondary': True, 'is_valid_r53_zone': True}}}"
+82,Failure,"{'terraform': {'validation': {'is_configuration_valid': False, 'is_valid_r53_health_check_primary': False, 'is_valid_r53_health_check_secondary': False, 'is_valid_r53_record_primary': True, 'is_valid_r53_record_secondary': True, 'is_valid_r53_zone': True}}}"
+85,Failure,"{'terraform': {'validation': {'is_configuration_valid': False, 'is_valid_r53_record_eu': True, 'is_valid_r53_record_na': False, 'is_valid_r53_zone': True}}}"
+88,Failure,"{'terraform': {'validation': {'has_aws_eks_cluster': False, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True}}}"
+9,Failure,"{'terraform': {'validation': {'is_configuration_valid': False, 'is_valid_eb_app': True, 'is_valid_eb_app_version': True, 'is_valid_eb_env': True, 'is_valid_iam_instance_profile': True, 'is_valid_iam_role': True, 'is_valid_iam_role_policy_attachment': True, 'is_valid_s3_bucket': False, 'is_valid_s3_object': False, 'is_valid_sqs_queue': True}}}"
+94,Failure,"{'terraform': {'validation': {'has_aws_eks_cluster_example': False, 'has_output_endpoint': True, 'has_output_kubeconfig_certificate_authority_data': True}}}"

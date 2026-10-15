@@ -1,0 +1,13 @@
+# Outputs of run_full.py other than full_results.csv (written again by every run)
+results/full408_v2/out/
+results/full408_v2/full_results_detail.csv
+results/full408_v2/rule_vectors.json
+results/full408_v2/run_meta.json
+results/full408_v2/run_log.txt
+# Outputs of iv_adapter.py run on its own (pilot)
+out_fixed/
+results_fixed.csv
+# Work folders and the large input of the table builders
+tables/_tfwork/
+tables/_tfcache/
+tables/aws-6.72.0-schema.json

@@ -1,0 +1,428 @@
+Directory,Status,Details
+Successful Directories,,
+0,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_cloudwatch_log_group', 'is_valid_cloudwatch_log_resource_policy']"
+1,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_zone', 'is_valid_vpc']"
+10,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_app_version']"
+100,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster_demo_eks', 'has_aws_iam_policy_document_assume_role_eks', 'has_aws_iam_role_demo_eks']"
+101,Success,"terraform: {'analysis': {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True, 'valid_config': True}}"
+102,Success,"terraform: {'analysis': {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True, 'valid_config': True}}"
+103,Success,"terraform: {'analysis': {'has_aws_eks_cluster': True, 'has_aws_iam_role': True, 'has_aws_iam_role_policy_attachment': True, 'valid_config': True}}"
+104,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_policy', 'valid_configuration']"
+105,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_metrix', 'has_s3_bucket_object']"
+107,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_versioning', 'valid_configuration']"
+108,Success,"terraform: validation: all boolean fields true: ['has_dynamodb_table', 'has_s3_bucket_public_access_block', 'has_s3_bucket_server_side_encryption_configuration']"
+109,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_acl', 'has_s3_bucket_lifecycle_configuration_one']"
+11,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_app_version']"
+110,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_logging', 'valid_configuration']"
+111,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_object_lock_configuration', 'valid_configuration']"
+112,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_object_lock_configuration', 'valid_configuration']"
+113,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_request_payment_configuration', 'valid_configuration']"
+114,Success,"terraform: validation: all boolean fields true: ['has_s3_bucket', 'has_s3_bucket_public_access_block', 'valid_configuration']"
+115,Success,"terraform: validation: {'has_s3_bucket': True, 'has_s3_bucket_acl': False, 'has_s3_bucket_ownership_controls': True, 'has_s3_bucket_policy': True, 'has_s3_bucket_public_access_block': True, 'valid_configuration': True}"
+116,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket', 'has_aws_s3_bucket_policy', 'valid_configuration']"
+117,Success,"terraform: validation: all boolean fields true: ['has_aws_iam_policy_document_topic', 'has_aws_s3_bucket', 'has_aws_s3_bucket_notification']"
+118,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket', 'has_aws_s3_bucket_object_lock_configuration', 'has_aws_s3_bucket_versioning']"
+119,Success,"terraform: validation: all boolean fields true: ['has_aws_kms_key', 'has_aws_s3_bucket', 'has_aws_s3_bucket_server_side_encryption_configuration']"
+12,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+120,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket', 'has_aws_s3_bucket_ownership_controls', 'valid_configuration']"
+121,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket_acl_example', 'has_aws_s3_bucket_acl_log', 'has_aws_s3_bucket_example']"
+122,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket_object', 'valid_configuration']"
+123,Success,"terraform: validation: all boolean fields true: ['has_aws_s3_bucket_example', 'has_aws_s3_bucket_ownership_controls_example', 'valid_configuration']"
+124,Success,terraform: ami_latest_amazon_linux_2: True
+125,Success,terraform: ami_latest_amazon_linux_2: True
+126,Success,main: allow: True
+127,Success,main: allow: True
+13,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+132,Success,main: allow: True
+133,Success,main: allow: True
+134,Success,main: allow: True
+135,Success,main: allow: True
+136,Success,main: allow: True
+137,Success,main: allow: True
+138,Success,main: allow: True
+139,Success,main: allow: True
+14,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+140,Success,main: allow: True
+141,Success,main: allow: True
+142,Success,main: allow: True
+143,Success,main: allow: True
+144,Success,main: allow: True
+145,Success,main: allow: True
+146,Success,main: allow: True
+147,Success,main: allow: True
+148,Success,main: allow: True
+149,Success,main: allow: True
+15,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+150,Success,main: allow: True
+151,Success,main: allow: True
+152,Success,main: allow: True
+153,Success,main: allow: True
+154,Success,main: allow: True
+155,Success,main: allow: True
+156,Success,main: allow: True
+157,Success,main: allow: True
+158,Success,main: allow: True
+159,Success,main: allow: True
+16,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+160,Success,main: allow: True
+161,Success,main: allow: True
+162,Success,main: allow: True
+163,Success,main: allow: True
+164,Success,main: allow: True
+165,Success,main: allow: True
+166,Success,main: allow: True
+167,Success,main: allow: True
+168,Success,main: allow: True
+169,Success,main: allow: True
+17,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+170,Success,main: allow: True
+171,Success,main: allow: True
+172,Success,main: allow: True
+173,Success,main: allow: True
+174,Success,main: allow: True
+175,Success,main: allow: True
+176,Success,main: allow: True
+177,Success,main: allow: True
+178,Success,main: allow: True
+179,Success,main: allow: True
+18,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+180,Success,main: allow: True
+181,Success,main: allow: True
+182,Success,main: allow: True
+183,Success,main: allow: True
+184,Success,main: allow: True
+185,Success,main: allow: True
+186,Success,main: allow: True
+187,Success,terraform: ami_latest_amazon_linux_2: True
+188,Success,main: allow: True
+19,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+193,Success,main: allow: True
+194,Success,main: allow: True
+195,Success,main: allow: True
+196,Success,main: allow: True
+197,Success,main: allow: True
+198,Success,main: allow: True
+199,Success,main: allow: True
+2,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_elb', 'is_valid_r53_record']"
+20,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+200,Success,main: allow: True
+201,Success,main: allow: True
+202,Success,main: allow: True
+203,Success,main: allow: True
+204,Success,main: allow: True
+205,Success,main: allow: True
+206,Success,main: allow: True
+207,Success,main: allow: True
+208,Success,main: allow: True
+209,Success,main: allow: True
+21,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+210,Success,main: allow: True
+211,Success,main: allow: True
+212,Success,main: allow: True
+213,Success,main: allow: True
+214,Success,main: allow: True
+215,Success,main: allow: True
+216,Success,main: allow: True
+217,Success,main: allow: True
+218,Success,main: allow: True
+219,Success,main: allow: True
+22,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+220,Success,main: allow: True
+221,Success,main: allow: True
+222,Success,main: allow: True
+223,Success,main: allow: True
+224,Success,main: allow: True
+225,Success,main: allow: True
+226,Success,main: allow: True
+227,Success,main: allow: True
+228,Success,main: allow: True
+229,Success,main: allow: True
+23,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+230,Success,main: allow: True
+231,Success,main: allow: True
+232,Success,main: allow: True
+233,Success,{'vpc_ipv6': {'valid': True}}
+234,Success,{'vpc_netgate_basic': {'valid': True}}
+235,Success,{'vpc_egress_netgate': {'valid': True}}
+236,Success,{'vpc_two_subnet': {'valid': True}}
+237,Success,{'vpc_net_acl': {'valid': True}}
+238,Success,{'vpc_peer_connect': {'valid': True}}
+239,Success,{'vpc_gateway_route': {'valid': True}}
+24,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+241,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'neptune_cluster_valid': True}}"
+242,Success,{'aws_neptune_cluster': {'valid': True}}
+243,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'neptune_cluster_exists': True, 'subnet1_exists': True, 'subnet2_exists': True, 'subnet_group_valid': True, 'valid': True, 'vpc_exists': True}}"
+244,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'instance_parameter_group_valid': True, 'valid': True}}"
+245,Success,"{'aws_neptune_cluster': {'cluster_parameter_group_valid': True, 'instance_parameter_group_valid': True, 'valid': True}}"
+246,Success,{'aws_chime_voice_connector': {'valid': True}}
+247,Success,{'aws_chime_voice_connector': {'valid': True}}
+248,Success,"{'aws_chime_voice_connector': {'connectors_valid': True, 'valid': True}}"
+249,Success,"{'aws_chime_voice_connector': {'connectors_valid': True, 'valid': True}}"
+25,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+250,Success,{'aws_chime_voice_connector': {'valid': True}}
+251,Success,{'aws_chime_voice_connector': {'valid': True}}
+252,Success,{'aws_chime_voice_connector': {'valid': True}}
+253,Success,{'aws_chime_voice_connector': {'valid': True}}
+254,Success,{'aws_chime_voice_connector': {'valid': True}}
+255,Success,{'aws_redshift_endpoint_access': {'valid': True}}
+256,Success,{'aws_redshift_endpoint_access': {'valid': True}}
+257,Success,{'aws_redshift_cluster_event_subscription': {'valid': True}}
+258,Success,{'aws_redshift_cluster_event_subscription': {'valid': True}}
+259,Success,{'aws_redshift_cluster_parameter_event_subscription': {'valid': True}}
+26,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+260,Success,{'aws_redshift_cluster_parameter_event_subscription': {'valid': True}}
+261,Success,{'iam_group_two_users': {'valid': True}}
+262,Success,{'iam_group_policy_attachment': {'valid': True}}
+263,Success,{'iam_user_ssh': {'valid': True}}
+264,Success,{'iam_group_basic': {'valid': True}}
+265,Success,{'iam_user_basic': {'valid': True}}
+266,Success,{'iam_mfa_basic': {'valid': True}}
+267,Success,{'aws_bucket': {'valid': True}}
+268,Success,{'aws_s3': {'valid': True}}
+269,Success,{'s3_bucket_accelerate': {'valid': True}}
+27,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+270,Success,{'s3_bucket_acl': {'valid': True}}
+271,Success,{'s3_bucket_analytics': {'valid': True}}
+272,Success,{'s3_bucket_intelligent_tiering': {'valid': True}}
+273,Success,{'s3_bucket_inventory': {'valid': True}}
+274,Success,{'aws_s3_bucket_inventory': {'valid': True}}
+275,Success,"{'s3_bucket_metric': {'bucket_exists': True, 'metric_exists': True, 'valid': True}}"
+276,Success,{'aws_s3_bucket_notification': {'valid': True}}
+277,Success,{'s3_bucket_object': {'valid': True}}
+278,Success,{'aws_s3_object': {'valid': True}}
+279,Success,{'s3_bucket_object_lock': {'valid': True}}
+28,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_app_template']"
+280,Success,{'s3_bucket_ownership_controls': {'valid': True}}
+281,Success,{'aws_s3_bucket_sse': {'valid': True}}
+282,Success,{'aws_s3_bucket_cors': {'valid': True}}
+283,Success,{'aws_s3_bucket_cors': {'valid': True}}
+284,Success,{'aws_s3_bucket_website': {'valid': True}}
+285,Success,{'aws_s3_bucket_website': {'valid': True}}
+286,Success,{'aws_s3_bucket_public_access_block': {'valid': True}}
+287,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+288,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+289,Success,{'aws_s3_bucket_payment_config': {'valid': True}}
+29,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_app_template']"
+290,Success,{'aws_s3_bucket_versioning': {'valid': True}}
+291,Success,{'aws_s3_bucket_versioning': {'valid': True}}
+292,Success,{'s3_bucket_logging': {'valid': True}}
+293,Success,{'s3_bucket_logging': {'valid': True}}
+294,Success,{'autograder_high': {'valid': True}}
+295,Success,{'autograder_middle': {'valid': True}}
+296,Success,{'autograder_middle': {'valid': True}}
+297,Success,{'autograder': {'valid': True}}
+298,Success,{'autograder_high_jail': {'valid': True}}
+299,Success,{'autograder': {'valid': True}}
+3,Success,"terraform: validation: all boolean fields true: ['has_required_db_replicaap_arguments', 'has_required_db_replicaeu_arguments', 'has_required_db_replicaus_arguments']"
+30,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app']"
+300,Success,{'autograder': {'valid': True}}
+301,Success,{'autograder': {'valid': True}}
+302,Success,{'caas_high': {'valid': True}}
+303,Success,{'caas_middle': {'valid': True}}
+304,Success,{'caas_middle': {'valid': True}}
+305,Success,{'caas': {'valid': True}}
+309,Success,{'cloud_desktop': {'valid': True}}
+31,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_iam_role']"
+310,Success,{'job_scheduler_high': {'valid': True}}
+311,Success,{'job_scheduler_high': {'valid': True}}
+312,Success,{'job_scheduler_high': {'valid': True}}
+313,Success,"{'job_scheduler': {'lambda_permission_valid': True, 'lambda_valid': True, 'policy_attachment_valid': True, 'policy_doc_valid': True, 'rule_valid': True, 'target_valid': True, 'valid': True}}"
+314,Success,"{'job_scheduler': {'lambda_permission_valid': True, 'lambda_valid': True, 'policy_attachment_valid': True, 'policy_doc_valid': True, 'rule_valid': True, 'target_valid': True, 'valid': True}}"
+315,Success,{'job_scheduler': {'valid': True}}
+316,Success,{'netflix_high': {'valid': True}}
+317,Success,{'netflix_middle': {'valid': True}}
+318,Success,{'netflix_middle': {'valid': True}}
+319,Success,{'netflix': {'valid': True}}
+32,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_iam_role']"
+324,Success,"terraform: validation: all boolean fields true: ['has_one_random_id', 'has_one_random_password', 'has_required_db_arguments']"
+325,Success,"terraform: validation: all boolean fields true: ['has_one_random_id', 'has_one_random_password', 'has_required_db_arguments']"
+326,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+327,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+328,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+329,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+33,Success,"terraform: validation: all boolean fields true: ['has_valid_codebuild', 'has_valid_resources']"
+330,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_parameter_group', 'is_valid_db_subnet_group']"
+331,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_parameter_group', 'is_valid_db_subnet_group']"
+332,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_parameter_group', 'is_valid_db_subnet_group']"
+333,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_parameter_group', 'is_valid_db_subnet_group']"
+334,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+335,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+336,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+337,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+338,Success,"terraform: validation: {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'subnets': []}"
+339,Success,"terraform: validation: {'is_valid_db_instance': True, 'is_valid_db_subnet_group': True, 'is_valid_security_group': True, 'subnets': []}"
+34,Success,"terraform: validation: all boolean fields true: ['has_valid_codebuild', 'has_valid_resources']"
+340,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+341,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+342,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group', 'is_valid_security_group']"
+343,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_random_string', 'is_valid_security_group']"
+344,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_random_string', 'is_valid_security_group']"
+345,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_random_string', 'is_valid_security_group']"
+346,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group']"
+347,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group']"
+348,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group']"
+349,Success,"terraform: validation: all boolean fields true: ['is_valid_db_instance', 'is_valid_db_subnet_group']"
+35,Success,"terraform: validation: all boolean fields true: ['has_valid_codebuild', 'has_valid_resources']"
+350,Success,"{'rds_new': {'is_valid_db_option_group': True, 'pattern': '^11(\\.0+)?$'}}"
+351,Success,"{'rds_new': {'is_valid_db_option_group': True, 'pattern': '^11(\\.0+)?$'}}"
+352,Success,"terraform: validation: {'is_valid_db_option_group': True, 'pattern': '^11(\\.0+)?$'}"
+353,Success,"terraform: validation: all boolean fields true: ['is_valid_aws_db_proxy', 'is_valid_aws_db_subnet_group', 'is_valid_aws_iam_role']"
+354,Success,"terraform: validation: all boolean fields true: ['is_valid_aws_db_proxy', 'is_valid_aws_db_subnet_group', 'is_valid_aws_iam_role']"
+355,Success,"terraform: validation: all boolean fields true: ['is_valid_aws_db_proxy', 'is_valid_aws_db_subnet_group', 'is_valid_aws_iam_role']"
+356,Success,"terraform: validation: all boolean fields true: ['is_valid_aws_db_proxy', 'is_valid_aws_db_subnet_group', 'is_valid_aws_iam_role']"
+357,Success,"terraform: validation: all boolean fields true: ['is_valid_aws_db_proxy', 'is_valid_aws_db_subnet_group', 'is_valid_aws_iam_role']"
+358,Success,terraform: validation: all boolean fields true: ['is_valid_lightsail_instance']
+359,Success,"{'aws_lightsail_instance': {'lightsail_instance_valid': True, 'name_is_valid': True}}"
+36,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_codebuild', 'has_valid_resources']"
+360,Success,terraform: validation: all boolean fields true: ['is_valid_lightsail_instance']
+361,Success,terraform: validation: all boolean fields true: ['is_valid_lightsail_instance']
+362,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_instance']
+363,Success,"terraform: validation: all boolean fields true: ['has_lightsail_instance', 'has_lightsail_static_ip', 'has_lightsail_static_ip_attachment']"
+364,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_instance']
+365,Success,"terraform: validation: {'has_all_required_resources': False, 'has_valid_lightsail_instance': True}"
+366,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_database']
+367,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_database']
+368,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_database']
+369,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_database']
+37,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_codebuild', 'has_valid_resources']"
+370,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_database']
+371,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_disk']
+372,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_disk']
+373,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_disk']
+374,Success,"terraform: validation: all boolean fields true: ['has_valid_lightsail_disk_attachments', 'has_valid_lightsail_disks', 'has_valid_lightsail_instance']"
+375,Success,"terraform: validation: all boolean fields true: ['has_valid_lightsail_bucket', 'has_valid_lightsail_bucket_access', 'has_valid_lightsail_instance']"
+376,Success,terraform: validation: all boolean fields true: ['has_valid_lightsail_certificate']
+377,Success,"terraform: validation: all boolean fields true: ['has_valid_lightsail_bucket', 'has_valid_lightsail_distribution', 'has_valid_resources']"
+378,Success,"terraform: validation: all boolean fields true: ['has_lightsail_distribution', 'has_lightsail_instance', 'has_valid_lightsail_resources']"
+379,Success,terraform: validation: all boolean fields true: ['is_valid_glacier_vault']
+38,Success,"terraform: validation: all boolean fields true: ['has_valid_codebuild', 'has_valid_resources']"
+380,Success,terraform: validation: all boolean fields true: ['is_valid_glacier_vault']
+381,Success,"terraform: validation: all boolean fields true: ['is_valid_dlm_lifecycle_policy', 'is_valid_glacier_vault', 'is_valid_terraform_plan']"
+382,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_sns_topic', 'is_valid_terraform_plan']"
+383,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_sns_topic', 'is_valid_terraform_plan']"
+384,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_terraform_plan']"
+385,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_glacier_vault_lock', 'is_valid_terraform_plan']"
+386,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_glacier_vault_lock', 'is_valid_terraform_plan']"
+387,Success,"terraform: validation: all boolean fields true: ['is_valid_glacier_vault', 'is_valid_sns_topic', 'is_valid_terraform_plan']"
+39,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_codebuild', 'has_valid_resources']"
+4,Success,"terraform: validation: all boolean fields true: ['has_required_main_db_arguments', 'is_configuration_valid', 'is_valid_db_instance']"
+40,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_codebuild', 'has_valid_resources']"
+406,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+407,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+408,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+409,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+41,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_codebuild', 'has_valid_resources']"
+410,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+411,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+412,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'has_valid_replica', 'is_valid_db_instance']"
+413,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+414,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+415,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+416,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+417,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+418,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance']"
+419,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance', 'is_valid_kms_key']"
+42,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+420,Success,"terraform: validation: all boolean fields true: ['has_required_db_arguments', 'is_valid_db_instance', 'is_valid_db_snapshot']"
+421,Success,terraform: validation: all boolean fields true: ['is_valid_efs_file_system']
+422,Success,terraform: validation: all boolean fields true: ['is_valid_efs_file_system']
+423,Success,"terraform: validation: all boolean fields true: ['has_valid_efs_file_system', 'has_valid_efs_file_system_policy', 'is_valid_efs_setup']"
+424,Success,"terraform: validation: all boolean fields true: ['has_valid_aws_efs_backup_policy', 'has_valid_efs_file_system', 'is_valid_efs_setup']"
+425,Success,"terraform: validation: all boolean fields true: ['has_valid_aws_efs_mount_target', 'has_valid_efs_file_system', 'has_valid_vpc']"
+426,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_route_table_association']"
+427,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_route_table_association']"
+428,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_route_table_association']"
+429,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_route_table_association']"
+43,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+430,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_vpc']"
+431,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_vpc']"
+432,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_route_table', 'is_valid_vpc']"
+433,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_vpc']"
+434,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_vpc']"
+435,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_vpc']"
+436,Success,"terraform: validation: all boolean fields true: ['is_valid_internet_gateway', 'is_valid_vpc']"
+437,Success,"terraform: validation: all boolean fields true: ['is_valid_db_subnet_group', 'is_valid_internet_gateway', 'is_valid_route_table']"
+438,Success,"terraform: validation: all boolean fields true: ['is_valid_db_subnet_group', 'is_valid_internet_gateway', 'is_valid_route_table']"
+439,Success,"terraform: validation: all boolean fields true: ['is_valid_db_subnet_group', 'is_valid_internet_gateway', 'is_valid_route_table']"
+44,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+440,Success,terraform: validation: all boolean fields true: ['is_valid_egress_only_internet_gateway']
+441,Success,terraform: validation: all boolean fields true: ['is_valid_egress_only_internet_gateway']
+442,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association']"
+443,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association']"
+444,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association']"
+445,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association', 'is_valid_vpc']"
+446,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association', 'is_valid_vpc']"
+447,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association', 'is_valid_vpc']"
+448,Success,"terraform: validation: all boolean fields true: ['is_valid_dhcp_options', 'is_valid_dhcp_options_association', 'is_valid_vpc']"
+449,Success,terraform: validation: all boolean fields true: ['is_valid_nat_gateway']
+45,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+450,Success,terraform: validation: all boolean fields true: ['is_valid_nat_gateway']
+451,Success,terraform: validation: all boolean fields true: ['is_valid_nat_gateway']
+452,Success,"terraform: validation: all boolean fields true: ['is_valid_vpc_peering_connection', 'is_valid_vpcs']"
+453,Success,"terraform: validation: all boolean fields true: ['is_valid_vpc_peering_connection', 'is_valid_vpcs']"
+454,Success,"terraform: validation: all boolean fields true: ['is_valid_vpc_peering_connection', 'is_valid_vpcs']"
+455,Success,terraform: validation: all boolean fields true: ['is_valid_network_acl']
+456,Success,terraform: validation: all boolean fields true: ['is_valid_network_acl']
+457,Success,terraform: validation: all boolean fields true: ['is_valid_network_acl']
+46,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+47,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+48,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+49,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+5,Success,"terraform: validation: all boolean fields true: ['has_required_db_replica1_arguments', 'has_required_db_replica2_arguments', 'has_required_main_db_arguments']"
+50,Success,"terraform: validation: all boolean fields true: ['has_valid_lex_bot_instance', 'has_valid_lex_intents', 'has_valid_resources']"
+51,Success,"terraform: validation: all boolean fields true: ['has_valid_lexv2models_bot_instance', 'has_valid_resources']"
+52,Success,"terraform: validation: all boolean fields true: ['has_valid_lexv2models_bot_instance', 'has_valid_resources']"
+53,Success,"terraform: validation: all boolean fields true: ['has_valid_connect_bot_association', 'has_valid_connect_instance', 'has_valid_lex_bot_instance']"
+54,Success,"terraform: validation: all boolean fields true: ['has_valid_connect_bot_association', 'has_valid_connect_instance', 'has_valid_lex_intents']"
+55,Success,"terraform: validation: all boolean fields true: ['has_valid_connect_bot_association', 'has_valid_connect_instance', 'has_valid_lex_intents']"
+56,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesis_stream', 'has_valid_resources']"
+57,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesis_analytics_application', 'has_valid_kinesis_stream', 'has_valid_resources']"
+58,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesisanalyticsv2_application', 'has_valid_resources']"
+59,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_resources']"
+6,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+60,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_redshift_cluster']"
+61,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_elasticsearch_cluster', 'has_valid_firehose_delivery_stream']"
+62,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_opensearch_cluster']"
+63,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_resources']"
+64,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_opensearchserverless_collection']"
+65,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_elasticsearch_cluster', 'has_valid_firehose_delivery_stream']"
+66,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_resources']"
+67,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_opensearch_cluster']"
+68,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesis_video_stream', 'has_valid_resources']"
+69,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesis_stream', 'has_valid_kinesis_stream_consumer', 'has_valid_resources']"
+7,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+70,Success,"terraform: validation: all boolean fields true: ['has_valid_bucket', 'has_valid_firehose_delivery_stream', 'has_valid_resources']"
+71,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesis_analytics_application', 'has_valid_resources']"
+72,Success,"terraform: validation: all boolean fields true: ['has_valid_kinesisanalyticsv2_application', 'has_valid_resources']"
+74,Success,"terraform: validation: all boolean fields true: ['has_valid_kendra_data_source', 'has_valid_kendra_index', 'has_valid_resources']"
+75,Success,"terraform: validation: all boolean fields true: ['has_valid_kendra_data_source', 'has_valid_kendra_index', 'has_valid_resources']"
+76,Success,"terraform: validation: all boolean fields true: ['has_valid_kendra_index', 'has_valid_resources']"
+77,Success,"terraform: validation: all boolean fields true: ['has_valid_kendra_index', 'has_valid_resources']"
+78,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_zone']"
+79,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+8,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_env']"
+80,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record', 'is_valid_r53_zone']"
+81,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_health_check', 'is_valid_r53_record_primary']"
+82,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_health_check_primary', 'is_valid_r53_health_check_secondary']"
+83,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_cloud_watch_alarm', 'is_valid_r53_health_check']"
+84,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record_eu', 'is_valid_r53_record_na']"
+85,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_record_eu', 'is_valid_r53_record_na']"
+86,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_r53_traffic_policy']"
+87,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster', 'has_aws_iam_role', 'has_aws_iam_role_policy_attachment_eks_cluster']"
+88,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster', 'has_aws_iam_role', 'has_aws_iam_role_policy_attachment']"
+89,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster', 'has_aws_iam_role', 'has_aws_iam_role_policy_attachment_eks_cluster']"
+9,Success,"terraform: validation: all boolean fields true: ['is_configuration_valid', 'is_valid_eb_app', 'is_valid_eb_app_version']"
+90,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster_auth', 'has_aws_eks_fargate_profile', 'has_aws_iam_role_fargate']"
+91,Success,terraform: validation: all boolean fields true: ['has_aws_eks_access_entry_example']
+92,Success,terraform: validation: all boolean fields true: ['has_aws_eks_access_policy_association_example']
+93,Success,terraform: validation: all boolean fields true: ['has_aws_eks_addon_example']
+94,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_cluster_example', 'has_output_endpoint', 'has_output_kubeconfig_certificate_authority_data']"
+95,Success,terraform: validation: all boolean fields true: ['has_aws_eks_fargate_profile_example']
+96,Success,"terraform: validation: all boolean fields true: ['has_aws_iam_role_example', 'has_aws_iam_role_policy_attachment_example', 'valid_configuration']"
+97,Success,terraform: validation: all boolean fields true: ['has_aws_eks_identity_provider_config_example']
+98,Success,terraform: validation: all boolean fields true: ['has_aws_eks_node_group_example']
+99,Success,"terraform: validation: all boolean fields true: ['has_aws_eks_pod_identity_association_example', 'has_aws_iam_policy_document_assume_role', 'has_aws_iam_role_example']"
+Failed Directories,,
+106,Failure,"{'terraform': {'validation': {'has_aws_s3_bucket_acl': True, 'has_aws_s3_bucket_public_access_block': True, 'has_aws_s3_bucket_server_side_encryption_configuration': False, 'has_s3_bucket': False, 'valid_configuration': False}}}"
+128,Failure,"{'main': {'ec2_fleet_valid': False, 'launch_template_valid': False, 'private_subnet_exists': True, 'public_subnet_exists': True}}"
+73,Failure,"{'terraform': {'validation': {'has_valid_bucket': False, 'has_valid_cloudwatch_log_group': False, 'has_valid_cloudwatch_log_stream': False, 'has_valid_kinesis_analytics_application': False, 'has_valid_resources': False}}}"

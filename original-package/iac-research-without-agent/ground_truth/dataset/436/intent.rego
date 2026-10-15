@@ -1,0 +1,26 @@
+package terraform.validation
+
+import rego.v1
+
+# Set default validation states
+default is_valid_vpc := false
+
+default is_valid_internet_gateway := false
+
+# Validate aws_vpc resource
+is_valid_vpc if {
+	some i
+	resource := input.configuration.root_module.resources[i]
+	resource.type == "aws_vpc"
+	resource.expressions.cidr_block.constant_value != null
+	resource.expressions.tags != null
+}
+
+# Validate aws_internet_gateway resource
+is_valid_internet_gateway if {
+	some i
+	resource := input.configuration.root_module.resources[i]
+	resource.type == "aws_internet_gateway"
+	resource.expressions.vpc_id.references[0]
+	resource.expressions.tags != null
+}

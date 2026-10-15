@@ -1,0 +1,150 @@
+{
+  "syntax_errors": {
+    "Invalid HCL": [
+      "Argument or block definition required",
+      "Invalid character",
+      "Missing newline",
+      "Error: Unclosed configuration block",
+      "Invalid data source",
+      "invalid value for master_password"
+    ],
+    "Invalid Block": [
+      "invalid block",
+      "unsupported block",
+      "Unexpected block type",
+      "Expected start of block"
+    ],
+    "Missing Bracket": [
+      "unexpected end",
+      "missing closing",
+      "unclosed bracket",
+      "unclosed block"
+    ],
+    "Invalid Attribute": [
+      "invalid attribute",
+      "unsupported attribute",
+      "illegal character",
+      "Invalid format"
+    ]
+  },
+  "provider_errors": {
+    "Provider Not Found": [
+      "not found",
+      "not available",
+      "No provider",
+      "does not have a provider named"
+    ],
+    "Version Constraint": [
+      "version constraint"
+    ],
+    "Configuration Error": [
+      "configuration",
+      "missing provider configuration"
+    ]
+  },
+  "resource_validation_errors": {
+    "Missing Required Argument": [
+      "required argument",
+      "required attribute",
+      "is required",
+      "must be specified"
+    ],
+    "Invalid Argument": [
+      "invalid argument",
+      "Error: expected .+ to be one of",
+      "unsupported argument",
+      "is not a valid",
+      "unknown argument",
+      "Your query returned no results",
+      "no matching",
+      "Too many",
+      "all attributes must be indexed."
+    ],
+    "Type Error": [
+      "expected type",
+      "unsuitable type",
+      "wrong type",
+      "should be of type",
+      "Incorrect attribute value type",
+      "is an invalid ARN"
+    ],
+    "Value Validation": [
+      "validation",
+      "valid",
+      "invalid value",
+      "must be one of"
+    ],
+    "Invalid Reference": [
+      "Invalid reference",
+      "cannot reference",
+      "undeclared resource",
+      "unknown resource",
+      "Cycle:",
+      "Reference to undeclared"
+    ],
+    "invalid_combination_errors": [
+      "Invalid combination"
+    ]
+  },
+  "resource_definition_errors": {
+    "Unsupported Attribute": [
+      "Unsupported attribute",
+      "Invalid \"count\" attribute"
+    ],
+    "Unsupported Argument": [
+      "Unsupported argument"
+    ],
+    "Unsupported Block": [
+      "Unsupported block type"
+    ],
+    "Unsupported Resource": [
+      "Unsupported resource type",
+      "Invalid resource type"
+    ]
+  },
+  "duplicate_resource_errors": {
+    "Duplicate Declaration": [
+      "duplicate resource",
+      "resource already defined",
+      "names must be unique"
+    ]
+  },
+  "invalid_name_errors": {
+    "Format Constraint": [
+      "only lowercase",
+      "only alphanumeric",
+      "cannot begin with"
+    ],
+    "Reserved Name": [
+      "Default is not allowed",
+      "\"Default\" is not allowed",
+      "reserved name",
+      "cannot use this name"
+    ]
+  },
+  "attribute_redefinition_errors": {
+    "Duplicate Attribute": [
+      "already set",
+      "set only once",
+      "attribute redefined"
+    ]
+  },
+  "missing_block_errors": {
+    "Required Block": [
+      "insufficient blocks",
+      "at least",
+      "blocks are required"
+    ]
+  },
+  "file_access_errors": {
+    "File Not Found": [
+      "no such file",
+      "file not found",
+      "no file exists"
+    ],
+    "Function Error": [
+      "function call",
+      "error in function"
+    ]
+  }
+}
